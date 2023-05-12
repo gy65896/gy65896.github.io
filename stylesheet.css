@@ -70,10 +70,18 @@ name {
 
 papertitle {
   font-family: "Candara";
-  font-size: 17px;
+  font-size: 18px;
   color:#0d30ca;
-  font-weight: 530
+  font-weight: bold
+
 }
+
+publication {
+
+  font-style: italic;
+  color:#515153;
+}
+
 
 a {
   color: #1772d0;

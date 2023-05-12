@@ -3,6 +3,7 @@
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
+
  
 
 <body style="background-color: rgb(225, 244, 252);">
@@ -70,20 +71,32 @@
             ( * denotes contribution equally, # represents corresponding author)
           </font>
           <p></p>
-          <!-- ======================EORNet================================= -->
-            <td style="padding:20px;width:25%;vertical-align:middle;" onmouseout="eor_stop()" onmouseover="eor_start()">
-
-                  <img src='files/paper/DeepSORVF/DeepSORVF.gif' width="320px", height="180px"></div>
-
-            </td>
+          <!-- ======================DeepSORVF================================= -->
+          <td style="padding:20px;width:25%;vertical-align:middle;" onmouseout="tits_stop()" onmouseover="tits_start()">
+            <div class="one">
+              <div class="two" id='tits_images'>
+                <img src='files/paper/DeepSORVF/DeepSORVF_2.png' width="320px", height="180px"></div>
+                <img src='files/paper/DeepSORVF/DeepSORVF_1.gif' width="320px", height="180px">
+            </div>
+            </div>
+            <script type="text/javascript">
+              function tits_stop() {
+                document.getElementById('tits_images').style.opacity = "0";
+              }
+              tits_stop()
+              function tits_start() {
+                document.getElementById('tits_images').style.opacity = "1";
+              }
+            </script>
+          </td>
             <td style="padding:20px;width:75%;vertical-align:top;">
                 <papertitle>Asynchronous Trajectory Matching-Based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways</papertitle>
               </a>
               <p style="margin: -8px;"></p>
               <br>
-              <strong>Yu Guo</strong>, Ryan Wen Liu, Jingxiang Qu, uxu Lu, Fenghua Zhu, Yisheng Lv
+              <strong>Yu Guo</strong>, Ryan Wen Liu, Jingxiang Qu, Yuxu Lu, Fenghua Zhu, Yisheng Lv
               <br>
-              <em>arXiv preprint arXiv:2302.11283</em>
+              <publication>arXiv preprint arXiv:2302.11283</publication>
               <br>
               <p style="margin: 8px;"></p>
               <a href="https://arxiv.org/pdf/2302.11283", target="_blank">PDF</a> &nbsp|&nbsp 
@@ -95,30 +108,20 @@
           </tr>
           <!-- ================================================================= -->
           
-          <!-- ======================RIDCP================================= -->
-          <tr  style="", onmouseout="panorr_stop()" onmouseover="panorr_start()">
-            <td style="padding:20px;width:25%;vertical-align:top;">
-              <iframe frameborder="0" class="juxtapose" width="320" height="180" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=edbc3b08-f00f-11ed-b5bd-6595d9b17862"></iframe>
-              </div>
-              <script type="text/javascript">
-                function panorr_start() {
-                  document.getElementById('pano_image').style.opacity = "1";
-                }
-
-                function panorr_stop() {
-                  document.getElementById('pano_image').style.opacity = "0";
-                }
-                panorr_stop()
-              </script>
+          <!-- ======================SCANet================================= -->
+          <tr  >
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <iframe frameborder="0" scrolling="no" class="juxtapose" width="320px" height="180px" src="files/paper/SCANet/JuxtaposeJS Embed.html"></iframe>
+            </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:top;">
                 <papertitle>SCANet: Self-Paced Semi-Curricular Attention Network for Non-Homogeneous Image Dehazing</papertitle>
               </a>
               <p style="margin: -8px;"></p>
               <br>
-              <strong>Yu Guo</strong>, Yuan Gao, Ryan Wen Liu, Yuxu Lu, Jingxiang Qu, Shengfeng He, Wenqi Ren
+              <strong>Yu Guo</strong>, Yuan Gao, Ryan Wen Liu<sup>#</sup>, Yuxu Lu, Jingxiang Qu, Shengfeng He, Wenqi Ren
               <br>
-              <em>IEEE Conference on Computer Vision and Pattern Recognition NTIRE Workshop <strong>(CVPRW)</strong>, 2023</em>
+              <publication>IEEE Conference on Computer Vision and Pattern Recognition NTIRE Workshop <strong>(CVPRW)</strong>, 2023</publication>
               <br>
               <p style="margin: 8px;"></p>
               <a href="https://arxiv.org/abs/2304.08444", target="_blank">PDF</a> &nbsp|&nbsp
@@ -128,6 +131,140 @@
             </td>
           </tr>
           <!-- ================================================================= -->
+
+          <!-- ======================AISVF================================= -->
+          <td style="padding:20px;width:25%;vertical-align:middle;" onmouseout="oe_stop()" onmouseover="oe_start()">
+            <div class="one">
+              <div class="two" id='oe_images'>
+                <img src='files/paper/AISVF/AISVF_2.png' width="320px", height="180px"></div>
+                <img src='files/paper/AISVF/AISVF_1.png' width="320px", height="180px">
+            </div>
+            </div>
+            <script type="text/javascript">
+              function oe_stop() {
+                document.getElementById('oe_images').style.opacity = "0";
+              }
+              oe_stop()
+              function oe_start() {
+                document.getElementById('oe_images').style.opacity = "1";
+              }
+            </script>
+          </td>
+            <td style="padding:20px;width:75%;vertical-align:top;">
+                <papertitle>Improving Maritime Traffic Surveillance in Inland Waterways Using the Robust Fusion of AIS and Visual Data</papertitle>
+              </a>
+              <p style="margin: -8px;"></p>
+              <br>
+              Jingxiang Qu, Ryan Wen Liu<sup>#</sup>, <strong>Yu Guo</strong>, Yuxu Lu, Jianlong Su, Peizheng Li
+              <br>
+              <publication>Ocean Engineering <strong>(OE)</strong>, 2023</publication>
+              <br>
+              <p style="margin: 8px;"></p>
+              <a href="https://www.researchgate.net/profile/Wen-Liu-41/publication/369270243_Improving_maritime_traffic_surveillance_in_inland_waterways_using_the_robust_fusion_of_AIS_and_visual_data/links/643e155de881690c4bded54d/Improving-maritime-traffic-surveillance-in-inland-waterways-using-the-robust-fusion-of-AIS-and-visual-data.pdf", target="_blank">PDF</a> &nbsp|&nbsp
+              <a href="https://github.com/QuJX/AIS-Visual-Fusion", target="_blank">Code</a> &nbsp|&nbsp
+              <a href="files/paper/AISVF/AISVF.html", target="_blank">BibTex</a>
+              <p></p>
+            </td>
+          </tr>
+          <!-- ================================================================= -->
+
+          <!-- ======================MSANN================================= -->
+          <td style="padding:20px;width:25%;vertical-align:middle;">
+            
+            <iframe frameborder="0" scrolling="no" class="juxtapose" width="320px" height="180px" src="files/paper/MSANN/JuxtaposeJS Embed.html"></iframe>
+          </div>
+          </td>
+            <td style="padding:20px;width:75%;vertical-align:top;">
+                <papertitle>Blind Image Despeckling Using Multi-Scale Attention-Guided Neural Network</papertitle>
+              </a>
+              <p style="margin: -8px;"></p>
+              <br>
+              <strong>Yu Guo</strong>*, Yuxu Lu*, Ryan Wen Liu<sup>#</sup>, Fenghua Zhu
+              <br>
+              <publication>IEEE Transactions on Artificial Intelligence <strong>(TAI)</strong>, 2023</publication>
+              <br>
+              <p style="margin: 8px;"></p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/10012299", target="_blank">PDF</a> &nbsp|&nbsp
+              <a href="https://github.com/gy65896/MSANN", target="_blank">Code</a> &nbsp|&nbsp
+              <a href="files/paper/MSANN/MSANN.html", target="_blank">BibTex</a>
+              <p></p>
+            </td>
+          </tr>
+          <!-- ================================================================= -->
+
+          <!-- ======================MDSFE================================= -->
+          <td style="padding:20px;width:25%;vertical-align:middle;" onmouseout="MDSFE_stop()" onmouseover="MDSFE_start()">
+            <div class="one">
+              <div class="two" id='MDSFE_images'>
+                <img src='files/paper/MDSFE/MDSFE_2.png' width="320px", height="180px"></div>
+                <img src='files/paper/MDSFE/MDSFE_1.png' width="320px", height="180px">
+            </div>
+            </div>
+            <script type="text/javascript">
+              function MDSFE_stop() {
+                document.getElementById('MDSFE_images').style.opacity = "0";
+              }
+              MDSFE_stop()
+              function MDSFE_start() {
+                document.getElementById('MDSFE_images').style.opacity = "1";
+              }
+            </script>
+          </td>
+            <td style="padding:20px;width:75%;vertical-align:top;">
+                <papertitle>MDSFE: Multi-scale Deep Stacking Fusion Enhancer Network for Visual Data Enhancement</papertitle>
+              </a>
+              <p style="margin: -8px;"></p>
+              <br>
+              <strong>Yu Guo</strong>*, Yuxu Lu*, Jingxiang Qu, Ryan Wen Liu<sup>#</sup>, Wenqi Ren
+              <br>
+              <publication>IEEE Transactions on Instrumentation and Measurement <strong>(TIM)</strong>, 2022</publication>
+              <br>
+              <p style="margin: 8px;"></p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9953166", target="_blank">PDF</a> &nbsp|&nbsp
+              <a href="files/paper/MDSFE/MDSFE.html", target="_blank">BibTex</a>
+              <p></p>
+            </td>
+          </tr>
+          <!-- ================================================================= -->
+
+          <!-- ======================GradDT================================= -->
+          <td style="padding:20px;width:25%;vertical-align:middle;" onmouseout="GradDT_stop()" onmouseover="GradDT_start()">
+            <div class="one">
+              <div class="two" id='GradDT_images'>
+                <img src='files/paper/GradDT/GradDT_2.png' width="320px", height="180px"></div>
+                <img src='files/paper/GradDT/GradDT_1.png' width="320px", height="180px">
+            </div>
+            </div>
+            <script type="text/javascript">
+              function GradDT_stop() {
+                document.getElementById('GradDT_images').style.opacity = "0";
+              }
+              GradDT_stop()
+              function GradDT_start() {
+                document.getElementById('GradDT_images').style.opacity = "1";
+              }
+            </script>
+          </td>
+            <td style="padding:20px;width:75%;vertical-align:top;">
+                <papertitle>GradDT: Gradient-Guided Despeckling Transformer for Industrial Imaging Sensors</papertitle>
+              </a>
+              <p style="margin: -8px;"></p>
+              <br>
+              Yuxu Lu*, <strong>Yu Guo</strong>*, Ryan Wen Liu<sup>#</sup>, Kwok Tai Chui, Brij B Gupta
+              <br>
+              <publication>IEEE Transactions on Industrial Informatics <strong>(TII)</strong>, 2022</publication>
+              <br>
+              <p style="margin: 8px;"></p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9858613", target="_blank">PDF</a> &nbsp|&nbsp
+              <a href="https://github.com/LouisYuxuLu/GradDT", target="_blank">Code</a> &nbsp|&nbsp
+              <a href="files/paper/GradDT/GradDT.html", target="_blank">BibTex</a>
+              <p></p>
+            </td>
+          </tr>
+          <!-- ================================================================= -->
+
+          
+
         </tbody></table>
       
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
