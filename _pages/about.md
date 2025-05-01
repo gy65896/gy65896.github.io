@@ -65,8 +65,8 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <p style="text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 0.5em;">2024</p>
 
-- **Yu Guo**<sup>†</sup>, Yuan Gao<sup>†</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He, [OneRestore: A Universal Restoration Framework for Composite Degradation](https://link.springer.com/chapter/10.1007/978-3-031-72655-2_15), **ECCV 2024** 
-- Huilin Zhu, Jingling Yuan, Zhengwei Yang, **Yu Guo**, Zheng Wang, Xian Zhong, Shengfeng He, [Zero-shot Object Counting with Good Exemplars](https://link.springer.com/chapter/10.1007/978-3-031-72652-1_22), **ECCV 2024**
+- **Yu Guo**<sup>†</sup>, Yuan Gao<sup>†</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He, [OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621), **ECCV 2024** 
+- Huilin Zhu, Jingling Yuan, Zhengwei Yang, **Yu Guo**, Zheng Wang, Xian Zhong, Shengfeng He, [Zero-shot Object Counting with Good Exemplars](https://arxiv.org/abs/2407.04948), **ECCV 2024**
 - Ryan Wen Liu, Yuxu Lu, Yuan Gao, **Yu Guo**, Wenqi Ren, Fenghua Zhu, Fei-Yue Wang, [Real-Time Multi-Scene Visibility Enhancement for Promoting Navigational Safety of Vessels Under Complex Weather Conditions](https://ieeexplore.ieee.org/abstract/document/10682473/), **T-ITS 2024**
 - Wenyu Xu, Dong Yang, Yuan Gao, Yuxu Lu, Jingming Zhang, **Yu Guo**, [MvKSR: Multi-view Knowledge-guided Scene Recovery for Hazy and Rainy Degradation](https://ieeexplore.ieee.org/abstract/document/10598186/), **TIM 2024**
 - Yuxu Lu, Dong Yang, Yuan Gao, Ryan Wen Liu, Jun Liu, **Yu Guo**, [AoSRNet: All-in-One Scene Recovery Networks via Multi-knowledge Integration](https://www.sciencedirect.com/science/article/pii/S0950705124004209), **KBS 2024**
@@ -86,7 +86,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 - **Yu Guo**<sup>†</sup>, Yuxu Lu<sup>†</sup>, Jingxiang Qu, Ryan Wen Liu, Wenqi Ren, [MDSFE: Multi-scale Deep Stacking Fusion Enhancer Network for Visual Data Enhancement](https://ieeexplore.ieee.org/abstract/document/9953166/), **TIM 2022**
 - Yuxu Lu<sup>†</sup>, **Yu Guo**<sup>†</sup>, Ryan Wen Liu, Kwok Tai Chui, Brij B Gupta, [GradDT: Gradient-guided Despeckling Transformer for Industrial Imaging Sensors](https://ieeexplore.ieee.org/abstract/document/9858613/), **TII 2022**
 - Ryan Wen Liu, **Yu Guo**, Yuxu Lu, Kwok Tai Chui, Brij B Gupta, [Deep Network-Enabled Haze Visibility Enhancement for Visual IoT-driven Intelligent Transportation Systems](https://ieeexplore.ieee.org/abstract/document/9764372/), **TII 2022**
-- Yuxu Lu<sup>†</sup>, **Yu Guo**<sup>†</sup>, Ryan Wen Liu, Wenqi Ren, [MTRBNet: Multi-branch Topology Residual Block-based Network for Low-light Enhancement](https://ieeexplore.ieee.org/abstract/document/9741357/), **SPL 2022** <strong><span id='total_cit' class='show_paper_citations' data='klYz-acAAAAJ:eQOLeE2rZwMC'></span></strong>
+- Yuxu Lu<sup>†</sup>, **Yu Guo**<sup>†</sup>, Ryan Wen Liu, Wenqi Ren, [MTRBNet: Multi-branch Topology Residual Block-based Network for Low-light Enhancement](https://ieeexplore.ieee.org/abstract/document/9741357/), **SPL 2022**
 - Ryan Wen Liu, **Yu Guo**, Jiangtian Nie, Qin Hu, Zehui Xiong, Han Yu, Mohsen Guizani, [Intelligent Edge-enabled Efficient Multi-source Data Fusion for Autonomous Surface Vehicles in Maritime Internet of Things](https://ieeexplore.ieee.org/abstract/document/9731523/), **TGCN 2022**
 - **Yu Guo**<sup>†</sup>, Yuxu Lu<sup>†</sup>, Ryan Wen Liu, [Lightweight Deep Network-enabled Real-time Low-visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance](https://www.cambridge.org/core/journals/journal-of-navigation/article/lightweight-deep-networkenabled-realtime-lowvisibility-enhancement-for-promoting-vessel-detection-in-maritime-video-surveillance/BB396AE954852926137B71B751CEA310), **JON 2022**
 
