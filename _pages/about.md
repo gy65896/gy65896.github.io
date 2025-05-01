@@ -38,7 +38,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <strong>Yu Guo</strong><sup>†</sup>, Yuan Gao<sup>†</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He
 
-[**Project**](https://gy65896.github.io/projects/ECCV2024_OneRestore/index.html) <strong><span id='total_cit' class='show_paper_citations' data='klYz-acAAAAJ:pyW8ca7W8N0C'></span></strong>
+[**Project**](https://gy65896.github.io/projects/ECCV2024_OneRestore/index.html)
 
 <a href="https://arxiv.org/abs/2407.04621" target="_blank">Paper</a> |  <a href="https://www.youtube.com/embed/AFr5tZdPlZ4">Video</a> |  <a href="https://gy65896.github.io/papers/ECCV2024_OneRestore/OneRestore_poster.png">Poster</a> | <a href="https://onedrive.live.com/?id=CBB69E4E3408EBCD%2138238&resid=CBB69E4E3408EBCD%2138238&ithint=folder&authkey=%21AMxuLGqPrvXXQ4c&cid=cbb69e4e3408ebcd" target="_blank">Dataset</a> |
 <a href="https://github.com/gy65896/OneRestore" target="_blank">Code</a> <img src="https://img.shields.io/github/stars/gy65896/OneRestore?label=%F0%9F%8C%9F%20Star&color=blue"> <img src="https://img.shields.io/github/forks/gy65896/OneRestore?label=%F0%9F%94%A7%20Fork&color=green">
@@ -53,7 +53,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <strong>Yu Guo</strong>, Ryan Wen Liu, Jingxiang Qu, Yuxu Lu, Fenghua Zhu, Yisheng Lv
 
-[**Project**](https://gy65896.github.io/projects/TITS2023_DeepSORVF/index.html) <strong><span id='total_cit' class='show_paper_citations' data='klYz-acAAAAJ:70eg2SAEIzsC'></span></strong>
+[**Project**](https://gy65896.github.io/projects/TITS2023_DeepSORVF/index.html)
 
 <a href="https://ieeexplore.ieee.org/document/10159572" target="_blank">Paper</a> | <a href="https://github.com/gy65896/DeepSORVF" target="_blank">Code</a> <img src="https://img.shields.io/github/stars/gy65896/DeepSORVF?label=%F0%9F%8C%9F%20Star&color=blue"> <img src="https://img.shields.io/github/forks/gy65896/DeepSORVF?label=%F0%9F%94%A7%20Fork&color=green"> | <a href="https://github.com/gy65896/FVessel" target="_blank">Dataset</a> <img src="https://img.shields.io/github/stars/gy65896/FVessel?label=%F0%9F%8C%9F%20Star&color=blue"> <img src="https://img.shields.io/github/forks/gy65896/FVessel?label=%F0%9F%94%A7%20Fork&color=green">
 </div>
