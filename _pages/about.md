@@ -28,7 +28,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 # 📝 Publications
 
-<p style="text-align: left; font-weight: bold; font-size: 1.2em; margin-bottom: -0.5em;">Representative Works</p>
+<p style="text-align: left; font-weight: bold; font-size: 1.2em; margin-bottom: -0.5em;">Representative Works</p>(† means equal contribution)
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='papers/ECCV2024_OneRestore/abstract.jpg' alt="sym" width="100%"></div></div>
@@ -36,7 +36,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 [OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621)
 
-<strong>Yu Guo</strong><sup>†</sup>, Yuan Gao<sup>†</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu<sup>*</sup>, Shengfeng He<sup>*</sup>
+<strong>Yu Guo</strong><sup>†</sup>, Yuan Gao<sup>†</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He
 
 [**Project**](https://gy65896.github.io/projects/ECCV2024_OneRestore/index.html) <strong><span id='total_cit' class='show_paper_citations' data='klYz-acAAAAJ:pyW8ca7W8N0C'></span></strong>
 
@@ -51,7 +51,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 [Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways](https://arxiv.org/abs/2407.04621)
 
-<strong>Yu Guo</strong>, Ryan Wen Liu<sup>*</sup>, Jingxiang Qu, Yuxu Lu, Fenghua Zhu<sup>*</sup>, Yisheng Lv
+<strong>Yu Guo</strong>, Ryan Wen Liu, Jingxiang Qu, Yuxu Lu, Fenghua Zhu, Yisheng Lv
 
 [**Project**](https://gy65896.github.io/projects/TITS2023_DeepSORVF/index.html) <strong><span id='total_cit' class='show_paper_citations' data='klYz-acAAAAJ:70eg2SAEIzsC'></span></strong>
 
@@ -65,7 +65,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <p style="text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 0.5em;">2024</p>
 
-- **Yu Guo**<sup>†</sup>, Yuan Gao<sup>†</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He, [OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621), **ECCV 2024** 
+- **Yu Guo**<sup>†</sup>, Yuan Gao<sup>†</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He, [OneRestore: A Universal Restoration Framework for Composite Degradation](https://link.springer.com/chapter/10.1007/978-3-031-72655-2_15), **ECCV 2024** 
 - Huilin Zhu, Jingling Yuan, Zhengwei Yang, **Yu Guo**, Zheng Wang, Xian Zhong, Shengfeng He, [Zero-shot Object Counting with Good Exemplars](https://link.springer.com/chapter/10.1007/978-3-031-72652-1_22), **ECCV 2024**
 - Ryan Wen Liu, Yuxu Lu, Yuan Gao, **Yu Guo**, Wenqi Ren, Fenghua Zhu, Fei-Yue Wang, [Real-Time Multi-Scene Visibility Enhancement for Promoting Navigational Safety of Vessels Under Complex Weather Conditions](https://ieeexplore.ieee.org/abstract/document/10682473/), **T-ITS 2024**
 - Wenyu Xu, Dong Yang, Yuan Gao, Yuxu Lu, Jingming Zhang, **Yu Guo**, [MvKSR: Multi-view Knowledge-guided Scene Recovery for Hazy and Rainy Degradation](https://ieeexplore.ieee.org/abstract/document/10598186/), **TIM 2024**
