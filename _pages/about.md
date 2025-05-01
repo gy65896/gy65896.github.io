@@ -28,7 +28,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 # 📝 Publications
 
-<p style="text-align: left; font-weight: bold; font-size: 1.2em; margin-bottom: -0.5em;">Representative Works</p>(† means equal contribution)
+<p style="text-align: left; font-weight: bold; font-size: 1.2em; margin-bottom: -0.5em;">Representative Works († means equal contribution)</p>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='papers/ECCV2024_OneRestore/abstract.jpg' alt="sym" width="100%"></div></div>
