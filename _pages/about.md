@@ -20,6 +20,7 @@ redirect_from:
 Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlify.app/"><strong>WINET lab</strong></a>, City University of Hong Kong.    He is pursuing his Ph.D. degree in Traffic Information Engineering and Control at Wuhan University of Technology.    From 2023 to 2024, he completed one significant visiting research period at    <a href="http://www.shengfenghe.com/"><strong>VUG lab</strong></a>, Singapore Management University.    He received his B.Sc. degree in Naval Architecture and Ocean Engineering from the Wuhan University of Technology, in 2021.   <br><br>   His research interests include Computer Vision and Intelligent Transportation.    He has published over 30 papers at the top international conferences and journals    (<a href='https://scholar.google.com/citations?user=klYz-acAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url\_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>)  such as ECCV, T-ITS, TII. He has also served as a reviewer of multiple conferences and journals,    including ICLR, TII, TCSVT, and TVT.   <br><br><strong>I am actively seeking like-minded collaborators.</strong>    If you are interested in my work, please feel free to contact me via email:    guoyu65896@gmail.com or add me on <a href="images/Wechat.jpg">WeChat</a>.
 </div>
 
+
 # 🔥 News
 
 - **2025.05**: &nbsp;🎉 One paper has been accepted by **<a href="https://icml.cc/">ICML 2025</a>**.
