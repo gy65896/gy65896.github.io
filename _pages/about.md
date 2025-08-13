@@ -63,6 +63,8 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <p style="text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 0.5em;">2025</p>
 
+
+- Zhengru Fang, Zhenghao Liu, Jingjing Wang, Senkang Hu, **Yu Guo**, Yiqin Deng, Yuguang Fang, [Task-oriented Communications for Visual Navigation with Edge-aerial Collaboration in Low Altitude Economy](https://arxiv.org/abs/2504.18317), **GlobeCom 2025**
 - Junhang Li<sup>†</sup>, **Yu Guo**<sup>†</sup>, Chuhua Xian, Shengfeng He, [Instruct2See: Learning to Remove Any Obstructions Across Distributions](https://arxiv.org/abs/2505.17649), **ICML 2025**
 
 <p style="text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 0.5em;">2024</p>
@@ -76,7 +78,6 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <p style="text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 0.5em;">2023</p>
 
-- Ryan Wen Liu, Yuxu Lu, **Yu Guo**, Wenqi Ren, Fenghua Zhu, Yisheng Lv, [AiOENet: All-in-one Low-visibility Enhancement to Improve Visual Perception for Intelligent Marine Vehicles Under Severe Weather Conditions](https://ieeexplore.ieee.org/abstract/document/10375786/), **TIV 2023**
 - Jingxiang Qu, Ryan Wen Liu, Chenjie Zhao, **Yu Guo**, Sendren Sheng-Dong Xu, Fenghua Zhu, Yisheng Lv, [Multi-task Learning-enabled Automatic Vessel Draft Reading for Intelligent Maritime Surveillance](https://ieeexplore.ieee.org/abstract/document/10311073/), **T-ITS 2023**
 - **Yu Guo**, Ryan Wen Liu, Yuxu Lu, Jiangtian Nie, Lingjuan Lyu, Zehui Xiong, Jiawen Kang, Han Yu, Dusit Niyato, [Haze Visibility Enhancement for Promoting Traffic Situational Awareness in Vision-Enabled Intelligent Transportation](https://ieeexplore.ieee.org/abstract/document/10192090/), **TVT 2023 & AAAIW 2022 (BP)**
 - **Yu Guo**, Ryan Wen Liu, Jingxiang Qu, Yuxu Lu, Fenghua Zhu, Yisheng Lv, [Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways](https://ieeexplore.ieee.org/abstract/document/10159572/), **T-ITS 2023**
