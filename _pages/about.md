@@ -44,7 +44,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <a href="" target="_blank">Paper</a> |  <a href="">Video</a> |  <a href="">Poster</a> | <a href="" target="_blank">Dataset</a> |
 <a href="" target="_blank">Code</a>
-<p style="color:brown">(Spotlight Paper, Acceptance Rate 3.5%)</p>
+<p style="color:brown">(Spotlight, Acceptance Rate 3.5%)</p>
 
 
 </div>
@@ -79,7 +79,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <p style="text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 0.5em;">2025</p>
 
-- **Yu Guo**, Shengfeng He, Yuxu Lu, Haonan An, Yihang Tao, Huilin Zhu, Jingxian Liu, Yuguang Fang, [Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection](), **NeurIPS 2025 (Spotlight)**
+- **Yu Guo**, Shengfeng He, Yuxu Lu, Haonan An, Yihang Tao, Huilin Zhu, Jingxian Liu, Yuguang Fang, [Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection](), **NeurIPS 2025**
 - Zhengru Fang, Zhenghao Liu, Jingjing Wang, Senkang Hu, **Yu Guo**, Yiqin Deng, Yuguang Fang, [Task-oriented Communications for Visual Navigation with Edge-aerial Collaboration in Low Altitude Economy](https://arxiv.org/abs/2504.18317), **GlobeCom 2025**
 - Junhang Li<sup>†</sup>, **Yu Guo**<sup>†</sup>, Chuhua Xian, Shengfeng He, [Instruct2See: Learning to Remove Any Obstructions Across Distributions](https://arxiv.org/abs/2505.17649), **ICML 2025**
 
