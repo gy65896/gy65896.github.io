@@ -33,7 +33,22 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <p style="text-align: left; font-weight: bold; font-size: 1.2em; margin-bottom: -0.5em;">Representative Works († means equal contribution)</p>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='papers/NeurIPS2025_Neptune-X/abstract.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection]()
+
+<strong>Yu Guo</strong>, Shengfeng He, Yuxu Lu, Haonan An, Yihang Tao, Huilin Zhu, Jingxian Liu, Yuguang Fang
+
+[**Project**]()
+
+<a href="" target="_blank">Paper</a> |  <a href="">Video</a> |  <a href="">Poster</a> | <a href="" target="_blank">Dataset</a> |
+<a href="" target="_blank">Code</a>
+<p style="color:brown">(Spotlight Paper, Acceptance Rate 3.5%)</p>
+
+
+</div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='papers/ECCV2024_OneRestore/abstract.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
