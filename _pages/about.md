@@ -24,6 +24,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 # 🔥 News
 
+- **2025.09**: &nbsp;🎉 One paper has been accepted by **<a href="https://neurips.cc/">NeurIPS 2025</a> (Spotlight)**.
 - **2025.05**: &nbsp;🎉 One paper has been accepted by **<a href="https://icml.cc/">ICML 2025</a>**.
 - **2024.07**: &nbsp;🎉 Two papers have been accepted by **<a href="https://eccv.ecva.net/">ECCV 2024</a>**.
 - **2024.04**: &nbsp;🎉 The constructed **[FVessel dataset](https://github.com/gy65896/FVessel)** is included in the **[CVonline: Image Databases](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm)** at the University of Edinburgh.
@@ -63,7 +64,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <p style="text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 0.5em;">2025</p>
 
-
+- **Yu Guo**, Shengfeng He, Yuxu Lu, Haonan An, Yihang Tao, Huilin Zhu, Jingxian Liu, Yuguang Fang, [Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection](), **NeurIPS 2025 (Spotlight)**
 - Zhengru Fang, Zhenghao Liu, Jingjing Wang, Senkang Hu, **Yu Guo**, Yiqin Deng, Yuguang Fang, [Task-oriented Communications for Visual Navigation with Edge-aerial Collaboration in Low Altitude Economy](https://arxiv.org/abs/2504.18317), **GlobeCom 2025**
 - Junhang Li<sup>†</sup>, **Yu Guo**<sup>†</sup>, Chuhua Xian, Shengfeng He, [Instruct2See: Learning to Remove Any Obstructions Across Distributions](https://arxiv.org/abs/2505.17649), **ICML 2025**
 
