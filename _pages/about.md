@@ -44,7 +44,7 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <a href="" target="_blank">Paper</a> |  <a href="">Video</a> |  <a href="">Poster</a> | <a href="" target="_blank">Dataset</a> |
 <a href="" target="_blank">Code</a>
-<p style="color:brown">(Spotlight, Acceptance Rate 3.5%)</p>
+<p style="color:brown">(Spotlight, Acceptance Rate 3.2%)</p>
 
 
 </div>
