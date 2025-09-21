@@ -40,10 +40,10 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 <strong>Yu Guo</strong>, Shengfeng He, Yuxu Lu, Haonan An, Yihang Tao, Huilin Zhu, Jingxian Liu, Yuguang Fang
 
-[**Project**]()
+[**Project**](https://gy65896.github.io/projects/NeurIPS2025_Neptune-X/index.html)
 
 <a href="" target="_blank">Paper</a> |  <a href="">Video</a> |  <a href="">Poster</a> | <a href="" target="_blank">Dataset</a> |
-<a href="" target="_blank">Code</a>
+<a href="https://github.com/gy65896/Neptune-X" target="_blank">Code</a>
 <p style="color:brown">(Spotlight, Acceptance Rate 3.2%)</p>
 
 
