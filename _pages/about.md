@@ -128,7 +128,11 @@ Yu Guo is currently a Research Assistant at    <a href="https://jcstemlab.netlif
 
 # 📖 Educations
 
-* **🎓 Visiting Ph.D. in Computing and Information Systems, 2023 - 2024**
+* **🎓 Ph.D. in Traffic Information Engineering and Control, 2021 - 2025**
+
+<span style="color:darkgray; padding-left: 4em;">Wuhan University of Technology, Wuhan, China</span>
+
+* **🎓 Joint Ph.D. in Computing and Information Systems, 2023 - 2024**
 
 <span style="color:darkgray; padding-left: 4em;">Singapore Management Unversity, Singapore</span>
 
