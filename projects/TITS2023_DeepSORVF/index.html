@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+  <title>Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways</title>
+  
+  <meta name="author" content="Yu Guo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            background-color: #333;
+            padding: 20px 0;
+        }
+        .marquee {
+            display: flex;
+            animation: marquee 30s linear infinite;
+            white-space: nowrap;
+        }
+        .marquee img {
+            height: 200px;
+            width: auto;
+            display: inline-block;
+            margin: 0 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes marquee {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-50%);
+            }
+        }
+        .timeline-container {
+            position: relative;
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px 0;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .timeline {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .timeline:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            right: 5%;
+            height: 4px;
+            background: linear-gradient(90deg, #cce4ff, #003f8a);
+            z-index: 0;
+        }
+        .timeline-item {
+            position: relative;
+            z-index: 1;
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 20px;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .timeline-item:first-child {
+            background-color: #cce4ff;
+            color: #003f8a;
+        }
+        .timeline-item:last-child {
+            background-color: #003f8a;
+            color: #cce4ff;
+        }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            right: 100px;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid #003f8a;
+            transform: translateY(-50%);
+        }
+    </style>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" type="text/css" href="../projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+</head>
+<body style="width: 100%;">
+    <div style="width: 100%;">
+        <!-- Title -->
+        <div class="root-content" style="padding-top: 30px;">
+            <name>Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways</name>
+            <br>
+            <div id="author-list">
+                <a href="https://scholar.google.com/citations?user=5qAe9ZMAAAAJ">Yu Guo</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=jgb3Ey4AAAAJ">Ryan Wen Liu</a><sup>1, *</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=9zK-zGoAAAAJ">Jingxiang Qu</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=XXge2_0AAAAJ">Yuxu Lu</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=HyQp__AAAAAJ">Fenghua Zhu</a><sup>2, *</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=RRKqjKAAAAAJ">Yisheng Lv</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div id="remark-list">
+                (* Corresponding Author)
+            </div>
+            <div id="institution-list">
+                <sup>1</sup> Wuhan University of Technology&nbsp;&nbsp;&nbsp;
+                <sup>2</sup> Chinese Academy of Sciences&nbsp;&nbsp;&nbsp;
+            </div>
+            <p id="publication">
+                TITS 2023
+            </p>
+            <div id="button-list">
+                <span class="link-button">
+                    <a class="link-button-content", href="https://ieeexplore.ieee.org/abstract/document/10159572", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf fa-w-12" style="position: relative; top: 0.15em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>
+                        </span>
+                        &nbsp;
+                        Paper
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="https://arxiv.org/abs/2302.11283", target="_blank">
+                        <span>
+                            <i class="ai ai-arxiv"></i>
+                        </span>
+                        &nbsp;
+                        ArXiv
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content" href="https://github.com/gy65896/DeepSORVF", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" version="1.1" viewBox="0 0 16 16" width="1.2em" style="position: relative; top: 0.25em;"><path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                        </span>
+                        &nbsp; 
+                        Code
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content" href="https://github.com/gy65896/FVessel", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" version="1.1" viewBox="0 0 16 16" width="1.2em" style="position: relative; top: 0.25em;"><path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                        </span>
+                        &nbsp; 
+                        Dataset
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content" href="https://colab.research.google.com/github/gy65896/DeepSORVF/blob/main/main_example.ipynb", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" style="position: relative; top: 0.25em;" width="1.2em"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Google Colab</title><path fill="currentColor" fill-rule="evenodd" d="M16.9414 4.9757a7.033 7.033 0 0 0-4.9308 2.0646 7.033 7.033 0 0 0-.1232 9.8068l2.395-2.395a3.6455 3.6455 0 0 1 5.1497-5.1478l2.397-2.3989a7.033 7.033 0 0 0-4.8877-1.9297zM7.07 4.9855a7.033 7.033 0 0 0-4.8878 1.9316l2.3911 2.3911a3.6434 3.6434 0 0 1 5.0227.1271l1.7341-2.9737-.0997-.0802A7.033 7.033 0 0 0 7.07 4.9855zm15.0093 2.1721l-2.3892 2.3911a3.6455 3.6455 0 0 1-5.1497 5.1497l-2.4067 2.4068a7.0362 7.0362 0 0 0 9.9456-9.9476zM1.932 7.1674a7.033 7.033 0 0 0-.002 9.6816l2.397-2.397a3.6434 3.6434 0 0 1-.004-4.8916zm7.664 7.4235c-1.38 1.3816-3.5863 1.411-5.0168.1134l-2.397 2.395c2.4693 2.3328 6.263 2.5753 9.0072.5455l.1368-.1115z" fill="white"></path></svg>
+                        </span>
+                        &nbsp; 
+                        Colab Demo
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="#bib">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" style="position: relative; top: 0.15em;" width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16"> <path fill="currentColor" fill-rule="evenodd" d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z" fill="white"></path> <path fill="currentColor" fill-rule="evenodd" d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z" fill="white"></path> </svg>
+                        </span>
+                        &nbsp;  
+                        BibTex
+                    </a>
+                </span>
+                <div id="count" style="padding-top: 20px;">
+                    <img src="https://img.shields.io/github/stars/gy65896/DeepSORVF?label=%F0%9F%8C%9F%20Star&color=blue"> &nbsp;&nbsp;
+                    <img src="https://img.shields.io/github/forks/gy65896/DeepSORVF?label=%F0%9F%94%A7%20Fork&color=green"> &nbsp;&nbsp;
+                    <img src="https://img.shields.io/github/stars/gy65896/FVessel?label=%F0%9F%8C%9F%20Star&color=blue"> &nbsp;&nbsp;
+                    <img src="https://img.shields.io/github/forks/gy65896/FVessel?label=%F0%9F%94%A7%20Fork&color=green">
+                </div>
+            </div>
+        </div>
+        <!-- Visual Results -->
+        <div style="background-color: #f5f5f5; margin-right: auto; margin-left: auto;">
+            <div class="root-content" style="padding-top: 10px;">
+                <h1 class="section-name">&#128293; Fusion Performance on Real Scenarios &#128293;</h1>
+                <table style="border: 0px black solid; ">
+                    <tbody>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/1.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/2.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/3.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/4.gif"/></td>
+                        </tr>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/5.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/6.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/7.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/8.gif"/></td>
+                        </tr>
+                        <!--<td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/9.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/10.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/11.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/12.gif"/></td>
+                        </tr>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/13.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/14.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/15.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/16.gif"/></td>
+                        </tr>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/17.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/18.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/19.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/20.gif"/></td>
+                        </tr>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/21.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/22.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/23.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/24.gif"/></td>
+                        </tr>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/25.gif"/></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="125" width="222" src="../../papers/TITS2023_DeepSORVF/imgs/26.gif"/></td>-->
+
+                    </tbody>
+                </table>
+                <h1 class="section-name">&#128400; AIS and Visual Data Visualization</h1>
+                <td style="padding: 10px; height:500; text-align: left;"><img frameborder="0" class="juxtapose" height="400" width="711" src="../../papers/TITS2023_DeepSORVF/imgs/visual.gif"/></td>
+                </tr>
+            </div>
+        </div>
+
+        <!-- Paper Information -->
+        <div class="root-content" style="padding-top: 30px;">
+            <div class="section-content">
+            <h1 class="section-name"> Abstract </h1>
+                <p class="section-content-text">
+                    The automatic identification system (AIS) and video cameras have been widely exploited for vessel traffic surveillance in inland waterways. The AIS data could provide vessel identity and dynamic information on vessel position and movements. In contrast, the video data could describe the visual appearances of moving vessels without knowing the information on identity, position, movements, etc. To further improve vessel traffic surveillance, it becomes necessary to fuse the AIS and video data to simultaneously capture the visual features, identity, and dynamic information for the vessels of interest. However, the performance of AIS and video data fusion is susceptible to issues such as data spatial difference, message asynchronous transmission, visual object occlusion, etc. In this work, we propose a deep learning-based simple online and real-time vessel data fusion method (termed DeepSORVF). We first extract the AIS- and video-based vessel trajectories, and then propose an asynchronous trajectory matching method to fuse the AIS-based vessel information with the corresponding visual targets. In addition, by combining the AIS- and video-based movement features, we also present a prior knowledge-driven anti-occlusion method to yield accurate and robust vessel tracking results under occlusion conditions. To validate the efficacy of our DeepSORVF, we have also constructed a new benchmark dataset (termed FVessel) for vessel detection, tracking, and data fusion. It consists of many videos and the corresponding AIS data collected in various weather conditions and locations. The experimental results have demonstrated that our method is capable of guaranteeing high-reliable data fusion and anti-occlusion vessel tracking.                </p>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Data Fusion</h1>
+                <img src="../../papers/TITS2023_DeepSORVF/method.jpg" width="1000"/>
+                <h1 class="section-name">Anti-occlusion Tracking</h1>
+                <img src="../../papers/TITS2023_DeepSORVF/method2.jpg" width="1000"/>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Acknowledgements</h1>
+                <p class="section-content-text"> This work was supported in part by the National Key R&D Program of China under Grant 2022YFB4300300, in part by the National Natural Science Foundation of China under Grant 52271365, and in part by the Fundamental Research Funds for the Central Universities under Grant 2023-vb-045. The authors deeply thank <strong>Jianlong Su</strong> from the School of Computer and Artificial Intelligence, Wuhan University of Technology who kindly performed the data acquisition and processing tasks, and every students who participated in data collection.</p>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Data Collection</h1>
+            </div>
+
+            <div class="marquee-container">
+                <div class="marquee">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220503_175627.jpg" alt="Image 1">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220503_175634.jpg" alt="Image 2">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220924_143818.jpg" alt="Image 3">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220929_144023.jpg" alt="Image 4">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220929_144037.jpg" alt="Image 5">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20230429_152449.jpg" alt="Image 6">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20230429_152558.jpg" alt="Image 7">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220503_175627.jpg" alt="Image 1">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220503_175634.jpg" alt="Image 2">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220924_143818.jpg" alt="Image 3">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220929_144023.jpg" alt="Image 4">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20220929_144037.jpg" alt="Image 5">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20230429_152449.jpg" alt="Image 6">
+                    <img src="../../papers/TITS2023_DeepSORVF/data/IMG_20230429_152558.jpg" alt="Image 7">
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">2022.05<div class="arrow"></div></div>
+                <div class="timeline-item">2023.04</div>
+            </div>
+        
+            <script>
+                window.addEventListener('load', () => {
+                    const marquee = document.querySelector('.marquee');
+                    const marqueeContainer = document.querySelector('.marquee-container');
+        
+                    const marqueeWidth = marquee.scrollWidth;
+                    marquee.style.width = `${marqueeWidth}px`;
+        
+                    const duration = marqueeWidth / 100;
+                    marquee.style.animationDuration = `${duration}s`;
+                });
+            </script>
+
+
+            <div>
+                <h1 class="section-name" style="margin-top: 30px; text-align: left; font-size: 25px;">
+                    BibTex
+                </h1>
+                <a name="bib"></a>
+                <pre style="margin-top: 5px;" class="bibtex">
+<code>@article{guo2023asynchronous,
+  title={Asynchronous Trajectory Matching-Based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways},
+  author={Guo, Yu and Liu, Ryan Wen and Qu, Jingxiang and Lu, Yuxu and Zhu, Fenghua, and Lv, Yisheng},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={24},
+  number={11},
+  pages={12779--12792},
+  year={2023}
+}</code></pre>
+            </div>
+            <div style="margin-bottom: 50px;">
+                <h1 class="section-name" style="margin-top: 30px; margin-bottom: 10px; text-align: left; font-size: 25px;">
+                    Contact
+                </h1>
+                <p class="section-content-text">
+                    If you have any questions, please get in touch with me <strong>guoyu65896@gmail.com</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$']]},
+        messageStyle: "none"
+    });
+</script>
