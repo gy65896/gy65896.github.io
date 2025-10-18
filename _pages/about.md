@@ -54,12 +54,16 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <div style="display: flex; flex-direction: column; gap: 2em; margin: 1.5em 0;">
 
 <!-- Paper 1: NeurIPS 2025 -->
-<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: center;">
-<div style="flex: 0 0 40%; position: relative; background:rgb(255, 255, 255); display: flex; align-items: center; justify-content: center; padding: 1.5em;">
-<img src='papers/NeurIPS2025_Neptune-X/abstract.jpg' alt="Neptune-X" style="max-width: 105%; height: auto; object-fit: contain; display: block;">
-<div style="position: absolute; top: 12px; left: 12px; background: #2d3748; color: white; padding: 5px 12px; border-radius: 5px; font-size: 0.85em; font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">NeurIPS 2025</div>
+<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
+<div style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
+<img src='papers/NeurIPS2025_Neptune-X/abstract.jpg' alt="Neptune-X" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
 </div>
 <div style="flex: 1; padding: 1.5em 2em; display: flex; flex-direction: column; justify-content: center;">
+<div style="display: flex; align-items: center; margin-bottom: 0.8em;">
+<img src="papers/NeurIPS2025_Neptune-X/neurips-logo.svg" alt="NeurIPS" style="height: 50px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
+<div style="height: 50px; width: 1px; background: #e0e0e0; margin-right: 1em;"></div>
+<span style="color: #4a5568; font-size: 1.1em; font-weight: 600;">NeurIPS 2025</span>
+</div>
 <h4 style="margin: 0 0 0.6em 0; font-size: 1.15em; line-height: 1.35; color: #2d3748;">
 <a href="https://arxiv.org/abs/2509.20745" style="color: #2d3748; text-decoration: none;">Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection</a>
 </h4>
@@ -69,20 +73,28 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <a href="https://gy65896.github.io/projects/NeurIPS2025_Neptune-X/index.html" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Project]</a>
 <a href="https://arxiv.org/abs/2509.20745" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
 <a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Video]</a>
-<a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Poster]</a>
+<a href="papers/NeurIPS2025_Neptune-X/Neptune-X_poster.jpg" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Poster]</a>
 <a href="https://huggingface.co/datasets/gy65896/MGD" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Dataset]</a>
 <a href="https://github.com/gy65896/Neptune-X" target="_blank" style="color: #4a5568; text-decoration: none; font-weight: 500;">[Code]</a>
+</p>
+<p style="margin: 0; font-size: 0.85em;">
+<img src="https://img.shields.io/github/stars/gy65896/Neptune-X?label=%F0%9F%8C%9F%20Star&color=blue" alt="stars" style="vertical-align: middle;">
+<img src="https://img.shields.io/github/forks/gy65896/Neptune-X?label=%F0%9F%94%A7%20Fork&color=green" alt="forks" style="vertical-align: middle; margin-left: 0.5em;">
 </p>
 </div>
 </div>
 
 <!-- Paper 2: ICML 2025 -->
-<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: center;">
-<div style="flex: 0 0 40%; position: relative; background:rgb(255, 255, 255); display: flex; align-items: center; justify-content: center; padding: 1.5em;">
-<img src='papers/ICML2025_Instruct2See/abstract.png' alt="Instruct2See" style="max-width: 105%; height: auto; object-fit: contain; display: block;">
-<div style="position: absolute; top: 12px; left: 12px; background: #2d3748; color: white; padding: 5px 12px; border-radius: 5px; font-size: 0.85em; font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">ICML 2025</div>
+<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
+<div style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
+<img src='papers/ICML2025_Instruct2See/abstract.png' alt="Instruct2See" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
 </div>
 <div style="flex: 1; padding: 1.5em 2em; display: flex; flex-direction: column; justify-content: center;">
+<div style="display: flex; align-items: center; margin-bottom: 0.8em;">
+<img src="papers/ICML2025_Instruct2See/ICML-logo.svg" alt="ICML" style="height: 50px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
+<div style="height: 50px; width: 1px; background: #e0e0e0; margin-right: 1em;"></div>
+<span style="color: #4a5568; font-size: 1.1em; font-weight: 600;">ICML 2025</span>
+</div>
 <h4 style="margin: 0 0 0.6em 0; font-size: 1.15em; line-height: 1.35; color: #2d3748;">
 <a href="https://arxiv.org/abs/2505.17649" style="color: #2d3748; text-decoration: none;">Instruct2See: Learning to Remove Any Obstructions Across Distributions</a>
 </h4>
@@ -98,12 +110,16 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 
 <!-- Paper 3: ECCV 2024 -->
-<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: center;">
-<div style="flex: 0 0 40%; position: relative; background:rgb(255, 255, 255); display: flex; align-items: center; justify-content: center; padding: 1.5em;">
-<img src='papers/ECCV2024_OneRestore/abstract.jpg' alt="OneRestore" style="max-width: 105%; height: auto; object-fit: contain; display: block;">
-<div style="position: absolute; top: 12px; left: 12px; background: #2d3748; color: white; padding: 5px 12px; border-radius: 5px; font-size: 0.85em; font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">ECCV 2024</div>
+<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
+<div style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
+<img src='papers/ECCV2024_OneRestore/abstract.jpg' alt="OneRestore" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
 </div>
 <div style="flex: 1; padding: 1.5em 2em; display: flex; flex-direction: column; justify-content: center;">
+<div style="display: flex; align-items: center; margin-bottom: 0.8em;">
+<img src="papers/ECCV2024_OneRestore/eccv-navbar-logo.svg" alt="ECCV" style="height: 50px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
+<div style="height: 50px; width: 1px; background: #e0e0e0; margin-right: 1em;"></div>
+<span style="color: #4a5568; font-size: 1.1em; font-weight: 600;">ECCV 2024</span>
+</div>
 <h4 style="margin: 0 0 0.6em 0; font-size: 1.15em; line-height: 1.35; color: #2d3748;">
 <a href="https://arxiv.org/abs/2407.04621" style="color: #2d3748; text-decoration: none;">OneRestore: A Universal Restoration Framework for Composite Degradation</a>
 </h4>
@@ -113,7 +129,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <a href="https://arxiv.org/abs/2407.04621" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
 <a href="https://www.youtube.com/embed/AFr5tZdPlZ4" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Video]</a>
 <a href="https://gy65896.github.io/papers/ECCV2024_OneRestore/OneRestore_poster.png" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Poster]</a>
-<a href="https://onedrive.live.com/?id=CBB69E4E3408EBCD%2138238&resid=CBB69E4E3408EBCD%2138238&ithint=folder&authkey=%21AMxuLGqPrvXXQ4c&cid=cbb69e4e3408ebcd" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Dataset]</a>
+<a href="https://huggingface.co/datasets/gy65896/CDD-11" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Dataset]</a>
 <a href="https://github.com/gy65896/OneRestore" target="_blank" style="color: #4a5568; text-decoration: none; font-weight: 500;">[Code]</a>
 </p>
 <p style="margin: 0; font-size: 0.85em;">
@@ -124,12 +140,16 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 
 <!-- Paper 4: T-ITS 2023 -->
-<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: center;">
-<div style="flex: 0 0 40%; position: relative; background:rgb(255, 255, 255); display: flex; align-items: center; justify-content: center; padding: 1.5em;">
-<img src='papers/TITS2023_DeepSORVF/method.jpg' alt="DeepSORVF" style="max-width: 105%; height: auto; object-fit: contain; display: block;">
-<div style="position: absolute; top: 12px; left: 12px; background: #2d3748; color: white; padding: 5px 12px; border-radius: 5px; font-size: 0.85em; font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">T-ITS 2023</div>
+<div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
+<div style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
+<img src='papers/TITS2023_DeepSORVF/method.jpg' alt="DeepSORVF" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
 </div>
 <div style="flex: 1; padding: 1.5em 2em; display: flex; flex-direction: column; justify-content: center;">
+<div style="display: flex; align-items: center; margin-bottom: 0.8em;">
+<img src="papers/TITS2023_DeepSORVF/T-ITS_en_US.png" alt="IEEE" style="height: 50px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
+<div style="height: 50px; width: 1px; background: #e0e0e0; margin-right: 1em;"></div>
+<span style="color: #4a5568; font-size: 1.1em; font-weight: 600;">T-ITS 2023</span>
+</div>
 <h4 style="margin: 0 0 0.6em 0; font-size: 1.15em; line-height: 1.35; color: #2d3748;">
 <a href="https://ieeexplore.ieee.org/document/10159572" style="color: #2d3748; text-decoration: none;">Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways</a>
 </h4>
@@ -208,7 +228,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 
 <ul style="line-height: 1.8; text-align: justify;">
 <li>Jingxiang Qu, Ryan Wen Liu, Chenjie Zhao, <strong>Yu Guo</strong>, Sendren Sheng-Dong Xu, Fenghua Zhu, Yisheng Lv, <a href="https://ieeexplore.ieee.org/abstract/document/10311073/">Multi-task Learning-enabled Automatic Vessel Draft Reading for Intelligent Maritime Surveillance</a>, <strong>T-ITS 2023</strong></li>
-<li><strong>Yu Guo</strong>, Ryan Wen Liu, Yuxu Lu, Jiangtian Nie, Lingjuan Lyu, Zehui Xiong, Jiawen Kang, Han Yu, Dusit Niyato, <a href="https://ieeexplore.ieee.org/abstract/document/10192090/">Haze Visibility Enhancement for Promoting Traffic Situational Awareness in Vision-Enabled Intelligent Transportation</a>, <strong>TVT 2023 & AAAIW 2022 (BP)</strong></li>
+<li><strong>Yu Guo</strong>, Ryan Wen Liu, Yuxu Lu, Jiangtian Nie, Lingjuan Lyu, Zehui Xiong, Jiawen Kang, Han Yu, Dusit Niyato, <a href="https://ieeexplore.ieee.org/abstract/document/10192090/">Haze Visibility Enhancement for Promoting Traffic Situational Awareness in Vision-Enabled Intelligent Transportation</a>, <strong>TVT 2023 & AAAIW 2022 (Best Paper Award)</strong></li>
 <li><strong>Yu Guo</strong>, Ryan Wen Liu, Jingxiang Qu, Yuxu Lu, Fenghua Zhu, Yisheng Lv, <a href="https://ieeexplore.ieee.org/abstract/document/10159572/">Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways</a>, <strong>T-ITS 2023</strong></li>
 <li><strong>Yu Guo</strong>, Yuxu Lu, Ryan Wen Liu, Fenghua Zhu, <a href="https://ieeexplore.ieee.org/abstract/document/10012299/">Blind Image Despeckling Using Multi-scale Attention-guided Neural Network</a>, <strong>TAI 2023</strong></li>
 <li><strong>Yu Guo</strong>, Yuan Gao, Wen Liu, Yuxu Lu, Jingxiang Qu, Shengfeng He, Wenqi Ren, <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Guo_SCANet_Self-Paced_Semi-Curricular_Attention_Network_for_Non-Homogeneous_Image_Dehazing_CVPRW_2023_paper.html">SCANet: Self-paced Semi-curricular Attention Network for Non-homogeneous Image Dehazing</a>, <strong>CVPRW 2023</strong></li>
