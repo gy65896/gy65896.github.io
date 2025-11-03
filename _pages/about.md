@@ -25,7 +25,7 @@ Yu Guo is currently a Research Assistant at <a href="https://jcstemlab.netlify.a
 </p>
 
 <p style="margin-bottom: 1.2em;">
-His research interests include <strong style="color: #4a5568;">Computer Vision</strong> and <strong style="color: #4a5568;">Generative Model</strong>. He has published over 30 papers at the top international conferences and journals (<a href='https://scholar.google.com/citations?user=5qAe9ZMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url\_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>) such as NeurIPS, ICML, ECCV. He has also served as a reviewer of multiple conferences and journals, including ICLR, CVPR, and TCSVT.
+His research interests include <strong style="color: #4a5568;">Computer Vision</strong> and <strong style="color: #4a5568;">Generative Model</strong>. He has published over 30 papers at the top international conferences and journals <span style="display: inline-block; vertical-align: middle; margin: 0 0.3em;"><a href="https://scholar.google.com/citations?hl=en&user=5qAe9ZMAAAAJ" style="text-decoration: none; display: inline-block; vertical-align: middle;"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gy65896/google-scholar-stats/main/badge-citations.json&logo=google-scholar&logoColor=4285F4&style=flat-square" alt="Google Scholar Citations" style="vertical-align: middle;"></a></span> such as NeurIPS, ICML, ECCV. He has also served as a reviewer of multiple conferences and journals, including ICLR, CVPR, and TCSVT.
 </p>
 
 <div style="background: #f0f4f8; border-left: 4px solid #718096; padding: 1.2em 1.5em; border-radius: 6px; margin-top: 1.5em;">
