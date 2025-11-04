@@ -72,7 +72,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <p style="margin: 0; color: #5a6c7d; font-size: 0.88em; line-height: 1.8;">
 <a href="https://gy65896.github.io/projects/NeurIPS2025_Neptune-X/index.html" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Project]</a>
 <a href="https://arxiv.org/abs/2509.20745" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
-<a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Video]</a>
+<a href="https://www.youtube.com/watch?v=96a0EGoaixk" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Video]</a>
 <a href="papers/NeurIPS2025_Neptune-X/Neptune-X_poster.jpg" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Poster]</a>
 <a href="https://huggingface.co/datasets/gy65896/MGD" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Dataset]</a>
 <a href="https://github.com/gy65896/Neptune-X" target="_blank" style="color: #4a5568; text-decoration: none; font-weight: 500;">[Code]</a>
