@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+  <title>OneRestore: A Universal Restoration Framework for Composite Degradation</title>
+  
+  <meta name="author" content="Yu Guo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" type="text/css" href="../projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .left-image, .right-image-container {
+            margin: 10px;
+            text-align: center;
+        }
+        .right-image-container img,
+        .left-image img {
+            display: block;
+            width: 480px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .right-image-container img {
+            display: none;
+        }
+        .right-image-container img.active {
+            display: block;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #2c3e50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        button:hover {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            border: 2px solid #2c3e50;
+        }
+    </style>
+    <script>
+        function showImage(imageId, imageName) {
+            var images = document.querySelectorAll('.right-image-container img');
+            images.forEach(function(img) {
+                img.classList.remove('active');
+            });
+            document.getElementById(imageId).classList.add('active');
+            document.getElementById('right-image-name').textContent = imageName;
+        }
+    </script>
+</head>
+
+<body style="width: 100%;">
+    <div style="width: 100%;">
+        <!-- Title -->
+        <div class="root-content" style="padding-top: 30px;">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <img src="../../papers/ECCV2024_OneRestore/logo_onerestore.png" alt="OneRestore Logo" style="height: 80px; width: auto;">
+                <name>OneRestore: A Universal Restoration Framework for Composite Degradation</name>
+            </div>
+            <br>
+            <div id="author-list">
+                <a href="https://scholar.google.com/citations?user=5qAe9ZMAAAAJ">Yu Guo</a><sup>1, 2, #</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=4JpRnU4AAAAJ">Yuan Gao</a><sup>1, #</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=XXge2_0AAAAJ">Yuxu Lu</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=fluPrxcAAAAJ">Huilin Zhu</a><sup>1, 2</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=jgb3Ey4AAAAJ">Ryan Wen Liu</a><sup>1, *</sup>&nbsp;&nbsp;&nbsp;
+                <a href="http://www.shengfenghe.com/">Shengfeng He</a><sup>2, *</sup>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div id="remark-list">
+                (# Co-first Author, * Corresponding Author)
+            </div>
+            <div id="institution-list">
+                <sup>1</sup> Wuhan University of Technology&nbsp;&nbsp;&nbsp;
+                <sup>2</sup> Singapore Management University&nbsp;&nbsp;&nbsp;<br>
+                <sup>3</sup> The Hong Kong Polytechnic University&nbsp;&nbsp;&nbsp;
+            </div>
+            <p id="publication">
+                ECCV 2024
+            </p>
+            <div id="button-list">
+                <span class="link-button">
+                    <a class="link-button-content", href="https://link.springer.com/chapter/10.1007/978-3-031-72655-2_15", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf fa-w-12" style="position: relative; top: 0.15em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>
+                        </span>
+                        &nbsp;
+                        Paper
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="https://arxiv.org/abs/2407.04621", target="_blank">
+                        <span>
+                            <i class="ai ai-arxiv"></i>
+                        </span>
+                        &nbsp;
+                        ArXiv
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content" href="https://github.com/gy65896/OneRestore", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" version="1.1" viewBox="0 0 16 16" width="1.2em" style="position: relative; top: 0.25em;"><path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                        </span>
+                        &nbsp; 
+                        Github
+                    </a>
+               </span>
+               <span class="link-button">
+                    <a class="link-button-content", href="https://huggingface.co/spaces/gy65896/OneRestore", target="_blank">
+                        <span>
+                            🤗
+                        </span>
+                        &nbsp;
+                        Demo
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="../../papers/ECCV2024_OneRestore/OneRestore_poster.png", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" style="position: relative; top: 0.15em;" width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16"> <path fill="currentColor" fill-rule="evenodd" d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z" fill="white"></path> <path fill="currentColor" fill-rule="evenodd" d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z" fill="white"></path> </svg>
+
+                        </span>
+                        &nbsp;
+                        Poster
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="https://www.youtube.com/embed/AFr5tZdPlZ4", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-play-button" aria-hidden="true" style="position: relative; top: 0.15em;" width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16"> <circle cx="8" cy="8" r="8" stroke="currentColor" stroke-width="1.5" fill="none"></circle> <path fill="currentColor" fill-rule="evenodd" d="M6.5 4.5v7l5-3.5-5-3.5z"></path></svg>
+                        </span>
+                        &nbsp;
+                        Video
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="#bib">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" style="position: relative; top: 0.15em;" width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16"> <path fill="currentColor" fill-rule="evenodd" d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z" fill="white"></path> <path fill="currentColor" fill-rule="evenodd" d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z" fill="white"></path> </svg>
+                        </span>
+                        &nbsp;  
+                        BibTex
+                    </a>
+                </span>
+                <div id="count" style="padding-top: 20px;">
+                    <img src="https://img.shields.io/github/stars/gy65896/OneRestore?label=%F0%9F%8C%9F%20Star&color=blue"> &nbsp;&nbsp;
+                    <img src="https://img.shields.io/github/forks/gy65896/OneRestore?label=%F0%9F%94%A7%20Fork&color=green">
+                </div>
+                <div style="padding-top: 20px;">
+                    <img src="../../papers/ECCV2024_OneRestore/abstract.jpg" width="100%"/>
+                </div>
+            </div>
+        </div>
+        <!-- Visual Results -->
+        <div style="background-color: #f5f5f5; margin-right: auto; margin-left: auto;">
+            <div class="root-content" style="padding-top: 10px;">
+                <h1 class="section-name">&#128293; Restoration Performance on Real Images &#128293;</h1>
+                <table style="border: 0px black solid; ">
+                    <tbody>
+                        <td style="padding: 10px; height:500; text-align: left;"><iframe frameborder="0" class="juxtapose" height="300" width="380" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=70b889cc-45ef-11ef-9396-d93975fe8866"></iframe></td>
+                        <td style="padding: 10px; height:500; text-align: left;"><iframe frameborder="0" class="juxtapose" height="300" width="580" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c4319882-45ef-11ef-9396-d93975fe8866"></iframe></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="border: 0px black solid; border-top: 0;">
+                    <tbody>
+                        <td style="padding: 10px; height:390; text-align: left;"><iframe frameborder="0" class="juxtapose" height="300" width="518" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=eea521c4-45ef-11ef-9396-d93975fe8866"></iframe></td>
+                        <td style="padding: 10px; height:390; text-align: left;"><iframe frameborder="0" class="juxtapose" height="300" width="440" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0ea2bbc6-45f0-11ef-9396-d93975fe8866"></iframe></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h1 class="section-name">&#128400; Controllable Restoration</h1>
+                <table style="border: 0px black solid;">
+                    <body>
+                        <div class="container">
+                            <div class="left-image">
+                                <strong style="font-size: 20px;">Input Image</strong>
+                                <div style="padding-top: 10px;">
+                                    <img src="../../papers/ECCV2024_OneRestore/control/1.png" alt="original" width="540">
+                                </div>
+                            </div>
+                            <div class="right-image-container">
+                                <strong id="right-image-name" style="font-size: 20px;">low+haze+snow</strong>
+                                <div style="padding-top: 10px;">
+                                    <img id="image1" src="../../papers/ECCV2024_OneRestore/control/1-low.png">
+                                    <img id="image2" src="../../papers/ECCV2024_OneRestore/control/1-haze.png">
+                                    <img id="image3" src="../../papers/ECCV2024_OneRestore/control/1-snow.png">
+                                    <img id="image4" src="../../papers/ECCV2024_OneRestore/control/1-low_haze.png">
+                                    <img id="image5" src="../../papers/ECCV2024_OneRestore/control/1-low_snow.png">
+                                    <img id="image6" src="../../papers/ECCV2024_OneRestore/control/1-haze_snow.png">
+                                    <img id="image7" src="../../papers/ECCV2024_OneRestore/control/1-low_haze_snow.png" class="active">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="section-content-text">
+                            <strong style="font-size: 20px;">Press the buttons for controllable restoration:</strong>
+                        </p>
+                        <div>
+                            <button onclick="showImage('image1', 'low')">low (l)</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button onclick="showImage('image2', 'haze')">haze (h)</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button onclick="showImage('image3', 'snow')">snow (s)</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button onclick="showImage('image4', 'low+haze')">l+h</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button onclick="showImage('image5', 'low+snow')">l+s</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button onclick="showImage('image6', 'haze+snow')">h+s</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button onclick="showImage('image7', 'low+haze+snow')">l+h+s</button>
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                    </body>
+                </table>
+            </div>
+        </div>
+
+        <!-- Paper Information -->
+        <div class="root-content" style="padding-top: 30px;">
+            <div class="section-content">
+            <h1 class="section-name"> Abstract </h1>
+                <p class="section-content-text">
+                    In real-world scenarios, image impairments often manifest as composite degradations, presenting a complex interplay of elements such as low light, haze, rain, and snow. Despite this reality, existing restoration methods typically target isolated degradation types, thereby falling short in environments where multiple degrading factors coexist. To bridge this gap, our study proposes a versatile imaging model that consolidates four physical corruption paradigms to accurately represent complex, composite degradation scenarios. In this context, we propose OneRestore, a novel transformer-based framework designed for adaptive, controllable scene restoration. The proposed framework leverages a unique cross-attention mechanism, merging degraded scene descriptors with image features, allowing for nuanced restoration. Our model allows versatile input scene descriptors, ranging from manual text embeddings to automatic extractions based on visual attributes. Our methodology is further enhanced through a composite degradation restoration loss, using extra degraded images as negative samples to fortify model constraints. Comparative results on synthetic and real-world datasets demonstrate OneRestore as a superior solution, significantly advancing the state-of-the-art in addressing complex, composite degradations.
+                </p>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Method</h1>
+                <img src="../../papers/ECCV2024_OneRestore/method.jpg" width="100%"/>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Poster</h1>
+              <a href="../../papers/ECCV2024_OneRestore/OneRestore_poster.png"><img src="../../papers/ECCV2024_OneRestore/OneRestore_poster.png" width="100%"></a>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Video</h1>
+                <iframe width="100%" height="720"
+                    src="https://www.youtube.com/embed/AFr5tZdPlZ4" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <iframe src="https://gy65896.github.io/papers/ECCV2024_OneRestore/1436.pdf" width="100%" height="600px">
+                This browser does not support PDFs. Please download the PDF to view it: 
+                <a href="https://gy65896.github.io/papers/ECCV2024_OneRestore/1436.pdf">Download PDF</a>.
+                </iframe>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Acknowledgements</h1>
+                <p class="section-content-text">This project is supported by the Guangdong Natural Science Funds for Distinguished Young Scholar under Grant 2023B1515020097 and National Research Foundation Singapore under the AI Singapore Programme under Grant AISG3-GV-2023-011.</p>
+            </div>
+
+            <div>
+                <h1 class="section-name" style="margin-top: 30px; text-align: left; font-size: 25px;">
+                    BibTex
+                </h1>
+                <a name="bib"></a>
+                <pre style="margin-top: 5px;" class="bibtex">
+<code>@inproceedings{guo2024onerestore,
+  title={OneRestore: A Universal Restoration Framework for Composite Degradation},
+  author={Guo, Yu and Gao, Yuan and Lu, Yuxu and Liu, Ryan Wen and He, Shengfeng},
+  booktitle={European Conference on Computer Vision},
+  year={2024}
+}</code></pre>
+            </div>
+            <div style="margin-bottom: 50px;">
+                <h1 class="section-name" style="margin-top: 30px; margin-bottom: 10px; text-align: left; font-size: 25px;">
+                    Contact
+                </h1>
+                <p class="section-content-text">
+                    If you have any questions, please get in touch with me <strong>guoyu65896@gmail.com</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$']]},
+        messageStyle: "none"
+    });
+</script>
