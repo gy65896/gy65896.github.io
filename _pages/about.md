@@ -64,12 +64,12 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 <div class="card-text" style="flex: 1; padding: 1.5em 2em; display: flex; flex-direction: column; justify-content: center;">
 <div class="logo-row" style="display: flex; align-items: center; margin-bottom: 0.8em;">
-<img src="papers/ArXiv2025_SSM-PC/arxiv-logo.svg" alt="ArXiv" style="height: 50px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
+<img src="papers/ArXiv2025_SSM-PC/arxiv-logo.svg" alt="ArXiv" style="height: 30px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
 <div class="logo-divider" style="height: 50px; width: 1px; background: #e0e0e0; margin-right: 1em;"></div>
 <span style="color: #4a5568; font-size: 1.1em; font-weight: 600;">ArXiv 2025</span>
 </div>
 <h4 style="margin: 0 0 0.6em 0; font-size: 1.15em; line-height: 1.35; color: #2d3748;">
-<a href="https://arxiv.org/abs/2509.20745" style="color: #2d3748; text-decoration: none;">Shared Spatial Memory Through Predictive Coding</a>
+<a href="" style="color: #2d3748; text-decoration: none;">Shared Spatial Memory Through Predictive Coding</a>
 </h4>
 <p style="margin: 0 0 0.4em 0; color: #718096; font-size: 0.88em; line-height: 1.5;">Zhengru Fang*, <strong>Yu Guo</strong>*, Jingjing Wang2*, Yuang Zhang, Haonan An, Yinhai Wang, Yuguang Fang</p>
 <p style="margin: 0; color: #5a6c7d; font-size: 0.88em; line-height: 1.8;">
@@ -77,7 +77,11 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
 <a href="https://github.com/fangzr/fangzr.github.io/blob/main/SSM-PC/video" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Video]</a>
 <a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Dataset]</a>
-<a href="" target="_blank" style="color: #4a5568; text-decoration: none; font-weight: 500;">[Code]</a>
+<a href="https://github.com/fangzr/SSM-PC" target="_blank" style="color: #4a5568; text-decoration: none; font-weight: 500;">[Code]</a>
+</p>
+<p style="margin: 0; font-size: 0.85em;">
+<img src="https://img.shields.io/github/stars/fangzr/SSM-PC?label=%F0%9F%8C%9F%20Star&color=blue" alt="stars" style="vertical-align: middle;">
+<img src="https://img.shields.io/github/forks/fangzr/SSM-PC?label=%F0%9F%94%A7%20Fork&color=green" alt="forks" style="vertical-align: middle; margin-left: 0.5em;">
 </p>
 </div>
 </div>
@@ -120,7 +124,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 <div class="card-text" style="flex: 1; padding: 1.5em 2em; display: flex; flex-direction: column; justify-content: center;">
 <div class="logo-row" style="display: flex; align-items: center; margin-bottom: 0.8em;">
-<img src="papers/ICML2025_Instruct2See/ICML-logo.svg" alt="ICML" style="height: 50px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
+<img src="papers/ICML2025_Instruct2See/ICML-logo.svg" alt="ICML" style="height: 45px; width: auto; margin-right: 1em; object-fit: contain;" onerror="this.style.display='none';">
 <div class="logo-divider" style="height: 50px; width: 1px; background: #e0e0e0; margin-right: 1em;"></div>
 <span style="color: #4a5568; font-size: 1.1em; font-weight: 600;">ICML 2025</span>
 </div>
@@ -293,9 +297,19 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
     animation: slideDown 0.4s ease-out;
 }
 
+.representative-card .card-image {
+    overflow: hidden !important;
+}
+
 .representative-card .card-image img {
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.representative-card .card-image:hover img {
+    transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
