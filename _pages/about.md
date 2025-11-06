@@ -76,7 +76,6 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <a href="https://fangzr.github.io/SSM-PC/index.html" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Project]</a>
 <a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
 <a href="https://github.com/fangzr/fangzr.github.io/blob/main/SSM-PC/video" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Video]</a>
-<a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Dataset]</a>
 <a href="https://github.com/fangzr/SSM-PC" target="_blank" style="color: #4a5568; text-decoration: none; font-weight: 500;">[Code]</a>
 </p>
 <p style="margin: 0; font-size: 0.85em;">
