@@ -69,12 +69,12 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <span style="color: #4a5568; font-size: 1.1em; font-weight: 600;">ArXiv 2025</span>
 </div>
 <h4 style="margin: 0 0 0.6em 0; font-size: 1.15em; line-height: 1.35; color: #2d3748;">
-<a href="" style="color: #2d3748; text-decoration: none;">Shared Spatial Memory Through Predictive Coding</a>
+<a href="https://arxiv.org/abs/2511.04235" style="color: #2d3748; text-decoration: none;">Shared Spatial Memory Through Predictive Coding</a>
 </h4>
 <p style="margin: 0 0 0.4em 0; color: #718096; font-size: 0.88em; line-height: 1.5;">Zhengru Fang*, <strong>Yu Guo</strong>*, Jingjing Wang*, Yuang Zhang, Haonan An, Yinhai Wang, Yuguang Fang</p>
 <p style="margin: 0; color: #5a6c7d; font-size: 0.88em; line-height: 1.8;">
 <a href="https://fangzr.github.io/SSM-PC/index.html" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Project]</a>
-<a href="" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
+<a href="https://arxiv.org/abs/2511.04235" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
 <a href="https://github.com/fangzr/fangzr.github.io/blob/main/SSM-PC/video" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Video]</a>
 <a href="https://github.com/fangzr/SSM-PC" target="_blank" style="color: #4a5568; text-decoration: none; font-weight: 500;">[Code]</a>
 </p>
@@ -451,4 +451,3 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 </div>
-
