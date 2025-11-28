@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -25,7 +24,7 @@ Yu Guo is currently a Research Assistant at <a href="https://jcstemlab.netlify.a
 </p>
 
 <p style="margin-bottom: 1.2em;">
-His research interests include <strong style="color: #4a5568;">Computer Vision</strong> and <strong style="color: #4a5568;">Generative Model</strong>. He has published over 30 papers at the top international conferences and journals <span style="display: inline-block; vertical-align: middle; margin: 0 0.3em;"><a href="https://scholar.google.com/citations?hl=en&user=5qAe9ZMAAAAJ" style="text-decoration: none; display: inline-block; vertical-align: middle;"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gy65896/google-scholar-stats/main/badge-citations.json&logo=google-scholar&logoColor=4285F4&style=flat-square" alt="Google Scholar Citations" style="vertical-align: middle;"></a></span> such as NeurIPS, ICML, ECCV. He has also served as a reviewer of multiple conferences and journals, including ICLR, CVPR, and TCSVT.
+His research interests include <strong style="color: #4a5568;">Computer Vision</strong> and <strong style="color: #4a5568;">Generative Model</strong>. He has published over 30 papers at the top international conferences and journals <span style="display: inline-block; vertical-align: middle; margin: 0 0.3em;"><a href="https://scholar.google.com/citations?hl=en&user=5qAe9ZMAAAAJ" style="text-decoration: none; display: inline-block; vertical-align: middle;"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gy65896/google-scholar-stats/main/badge-citations.json&logo=google-scholar&logoColor=4285F4&style=flat-square" alt="Google Scholar Citations" style="vertical-align: middle;"></a></span> such as NeurIPS, ICML, ECCV.
 </p>
 
 <div style="background: #f0f4f8; border-left: 4px solid #718096; padding: 1.2em 1.5em; border-radius: 6px; margin-top: 1.5em;">
@@ -38,16 +37,19 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 
 </div>
 
+
+
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
 
 <div style="background: #f8f9fa; border-radius: 10px; padding: 1.8em; margin: 1em 0; border-left: 4px solid #718096; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-height: 400px; overflow-y: auto;">
 <ul style="list-style: none; padding-left: 0; margin: 0;">
-<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.09</strong>: &nbsp;🎉 One paper has been accepted by <strong><a href="https://neurips.cc/" style="color: #2d3748; text-decoration: none;">NeurIPS 2025</a> (Spotlight)</strong>.</li>
-<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.05</strong>: &nbsp;🎉 One paper has been accepted by <strong><a href="https://icml.cc/" style="color: #2d3748; text-decoration: none;">ICML 2025</a></strong>.</li>
-<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2024.07</strong>: &nbsp;🎉 Two papers have been accepted by <strong><a href="https://eccv.ecva.net/" style="color: #2d3748; text-decoration: none;">ECCV 2024</a></strong>.</li>
-<li style="padding: 0.8em 0;"><strong style="color: #4a5568;">2024.04</strong>: &nbsp;🎉 The constructed <strong><a href="https://github.com/gy65896/FVessel" style="color: #2d3748; text-decoration: none;">FVessel dataset</a></strong> is included in the <strong><a href="https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm" style="color: #2d3748; text-decoration: none;">CVonline: Image Databases</a></strong> at the University of Edinburgh.</li>
+<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.11</strong>: 🎉 SSM-PC project has been released [<strong><a href="https://fangzr.github.io/SSM-PC/index.html" style="color: #2d3748; text-decoration: none;">Project</a></strong>|<strong><a href="https://github.com/fangzr/SSM-PC" style="color: #2d3748; text-decoration: none;">Code</a></strong>].</li>
+<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.09</strong>:  🎉 One paper has been accepted by <strong><a href="https://neurips.cc/" style="color: #2d3748; text-decoration: none;">NeurIPS 2025</a> (Spotlight)</strong>.</li>
+<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.05</strong>:  🎉 One paper has been accepted by <strong><a href="https://icml.cc/" style="color: #2d3748; text-decoration: none;">ICML 2025</a></strong>.</li>
+<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2024.07</strong>:  🎉 Two papers have been accepted by <strong><a href="https://eccv.ecva.net/" style="color: #2d3748; text-decoration: none;">ECCV 2024</a></strong>.</li>
+<li style="padding: 0.8em 0;"><strong style="color: #4a5568;">2024.04</strong>:  🎉 The constructed <strong><a href="https://github.com/gy65896/FVessel" style="color: #2d3748; text-decoration: none;">FVessel dataset</a></strong> is included in the <strong><a href="https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm" style="color: #2d3748; text-decoration: none;">CVonline: Image Databases</a></strong> at the University of Edinburgh.</li>
 </ul>
 </div>
 
@@ -58,6 +60,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <div style="display: flex; flex-direction: column; gap: 2em; margin: 1.5em 0;">
 
 <!-- Paper 5: ArXiv 2025 -->
+
 <div class="representative-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
 <div class="card-image" style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
 <img src='papers/ArXiv2025_SSM-PC/method.jpg' alt="SSM-PC" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
@@ -86,6 +89,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 
 <!-- Paper 4: NeurIPS 2025 -->
+
 <div class="representative-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
 <div class="card-image" style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
 <img src='papers/NeurIPS2025_Neptune-X/abstract.jpg' alt="Neptune-X" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
@@ -117,6 +121,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 
 <!-- Paper 3: ICML 2025 -->
+
 <div class="representative-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
 <div class="card-image" style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
 <img src='papers/ICML2025_Instruct2See/abstract.png' alt="Instruct2See" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
@@ -142,6 +147,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 
 <!-- Paper 2: ECCV 2024 -->
+
 <div class="representative-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
 <div class="card-image" style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
 <img src='papers/ECCV2024_OneRestore/abstract.jpg' alt="OneRestore" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
@@ -172,6 +178,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </div>
 
 <!-- Paper 1: T-ITS 2023 -->
+
 <div class="representative-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
 <div class="card-image" style="flex: 0 0 45%; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5em; background: white;">
 <img src='papers/TITS2023_DeepSORVF/method.jpg' alt="DeepSORVF" style="max-width: 100%; height: auto; object-fit: contain; display: block;">
@@ -260,6 +267,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 
 <ul style="line-height: 1.8; text-align: justify;">
 <li>Jingxiang Qu, Ryan Wen Liu, Chenjie Zhao, <strong>Yu Guo</strong>, Sendren Sheng-Dong Xu, Fenghua Zhu, Yisheng Lv, <a href="https://ieeexplore.ieee.org/abstract/document/10311073/">Multi-task Learning-enabled Automatic Vessel Draft Reading for Intelligent Maritime Surveillance</a>, <strong>T-ITS 2023</strong></li>
+<li>Jingxiang Qu, Ryan Wen Liu, <strong>Yu Guo</strong>, Yuxu Lu, Jianlong Su, Peizheng Li, <a href="https://www.sciencedirect.com/science/article/pii/S0029801823005826">Improving Maritime Traffic Surveillance in Inland Waterways using the Robust Fusion of AIS and Visual Data</a>, <strong>OE 2023</strong></li>
 <li><strong>Yu Guo</strong>, Ryan Wen Liu, Yuxu Lu, Jiangtian Nie, Lingjuan Lyu, Zehui Xiong, Jiawen Kang, Han Yu, Dusit Niyato, <a href="https://ieeexplore.ieee.org/abstract/document/10192090/">Haze Visibility Enhancement for Promoting Traffic Situational Awareness in Vision-Enabled Intelligent Transportation</a>, <strong>TVT 2023 & AAAIW 2022 (Best Paper Award)</strong></li>
 <li><strong>Yu Guo</strong>, Ryan Wen Liu, Jingxiang Qu, Yuxu Lu, Fenghua Zhu, Yisheng Lv, <a href="https://ieeexplore.ieee.org/abstract/document/10159572/">Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways</a>, <strong>T-ITS 2023</strong></li>
 <li><strong>Yu Guo</strong>, Yuxu Lu, Ryan Wen Liu, Fenghua Zhu, <a href="https://ieeexplore.ieee.org/abstract/document/10012299/">Blind Image Despeckling Using Multi-scale Attention-guided Neural Network</a>, <strong>TAI 2023</strong></li>
@@ -354,7 +362,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 document.addEventListener("DOMContentLoaded", function () {
     var btn = document.getElementById("toggleFullList");
     var pubList = document.getElementById("fullListPublications");
-    
+  
     btn.addEventListener("click", function () {
         if (pubList.style.display === "none" || pubList.style.display === "") {
             pubList.style.display = "block";
@@ -450,4 +458,35 @@ document.addEventListener("DOMContentLoaded", function () {
 <p style="color: #718096; margin: 0.5em 0 0 0; font-size: 0.95em;">📍 City University of Hong Kong, Hong Kong, China</p>
 </div>
 
+</div>
+
+<span class='anchor' id='-academic-service'></span>
+
+# 🧠 Academic Service
+
+<div style="background: #f8f9fa; border-radius: 10px; padding: 2em; margin: 1.5em 0; border: 1px solid #e0e0e0; box-shadow: 0 2px 8px rgba(0,0,0,0.06); display: flex; flex-direction: column; gap: 1.2em;">
+
+<div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
+<h4 style="margin: 0 0 0.3em 0; color: #2d3748;">Area Chair</h4>
+<p style="margin: 0; color: #4a5568;">ICASSP (2026)</p>
+</div>
+<div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
+<h4 style="margin: 0 0 0.3em 0; color: #2d3748;">Conference Reviewer</h4>
+<p style="margin: 0; color: #4a5568;">ICLR (2025, 2026), CVPR (2026)</p>
+</div>
+<div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
+<h4 style="margin: 0 0 0.3em 0; color: #2d3748;">Journal Reviewer</h4>
+<p style="margin: 0; color: #4a5568;">IEEE TIP (2025-), IEEE TCSVT (2024-), IEEE TII (2023-), IEEE TETCI (2023-), PR (2025-), Neural Networks (2025-), EAAI (2023-)</p>
+</div>
+</div>
+
+<span class='anchor' id='-teaching-service'></span>
+
+# 🎓 Teaching Service
+
+<div style="background: #f8f9fa; border-radius: 10px; padding: 2em; margin: 1.5em 0; border: 1px solid #e0e0e0; box-shadow: 0 2px 8px rgba(0,0,0,0.06); display: flex; flex-direction: column; gap: 1.2em;">
+<div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
+<h4 style="margin: 0 0 0.3em 0; color: #2d3748;">TA · Introduction to Computer Programming</h4>
+<p style="margin: 0; color: #4a5568;">City University of Hong Kong · Spring 2025 · Assisting recitation sessions and grading</p>
+</div>
 </div>
