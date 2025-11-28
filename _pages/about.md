@@ -46,7 +46,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <div style="background: #f8f9fa; border-radius: 10px; padding: 1.8em; margin: 1em 0; border-left: 4px solid #718096; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-height: 400px; overflow-y: auto;">
 <ul style="list-style: none; padding-left: 0; margin: 0;">
 <li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.11</strong>: 🎉 SSM-PC project has been released [<strong><a href="https://fangzr.github.io/SSM-PC/index.html" style="color: #2d3748; text-decoration: none;">Project</a></strong>|<strong><a href="https://github.com/fangzr/SSM-PC" style="color: #2d3748; text-decoration: none;">Code</a></strong>].</li>
-<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.09</strong>: 🎉 One paper has been accepted by <strong><a href="https://neurips.cc/" style="color: #2d3748; text-decoration: none;">NeurIPS 2025</a> (Spotlight)</strong>.</li>
+<li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.09</strong>: 🎉 One paper has been accepted by <strong><a href="https://neurips.cc/" style="color: #2d3748; text-decoration: none;">NeurIPS 2025</a> (Spotlight)</strong>.</li>
 <li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2025.05</strong>: 🎉 One paper has been accepted by <strong><a href="https://icml.cc/" style="color: #2d3748; text-decoration: none;">ICML 2025</a></strong>.</li>
 <li style="padding: 0.8em 0; border-bottom: 1px solid #e2e8f0;"><strong style="color: #4a5568;">2024.07</strong>: 🎉 Two papers have been accepted by <strong><a href="https://eccv.ecva.net/" style="color: #2d3748; text-decoration: none;">ECCV 2024</a></strong>.</li>
 <li style="padding: 0.8em 0;"><strong style="color: #4a5568;">2024.04</strong>: 🎉 The constructed <strong><a href="https://github.com/gy65896/FVessel" style="color: #2d3748; text-decoration: none;">FVessel dataset</a></strong> is included in the <strong><a href="https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm" style="color: #2d3748; text-decoration: none;">CVonline: Image Databases</a></strong> at the University of Edinburgh.</li>
@@ -476,7 +476,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
 <h4 style="margin: 0 0 0.3em 0; color: #2d3748;">Journal Reviewer</h4>
-<p style="margin: 0; color: #4a5568;">IEEE TIP (2025-), IEEE TCSVT (2024-), IEEE TII (2023-), IEEE TETCI (2023-), PR (2025-), Neural Networks (2025-), EAAI (2023-)</p>
+<p style="margin: 0; color: #4a5568;">IEEE TIP (2025-), IEEE TCSVT (2024-), IEEE TII (2023-), IEEE TETCI (2023-), IEEE TVT (2024-), PR (2025-), Neural Networks (2025-), EAAI (2023-)</p>
 </div>
 </div>
 
