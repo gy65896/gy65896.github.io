@@ -443,7 +443,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div style="position: absolute; top: 1.5em; right: 1.5em; background: #5a6c7d; color: white; padding: 4px 10px; border-radius: 4px; font-size: 0.85em; font-weight: 600;">Current</div>
 <h4 style="color: #2d3748; margin: 0 0 0.5em 0; font-size: 1.2em;">🎓 Ph.D. in Computer Science</h4>
 <p style="color: #4a5568; margin: 0.3em 0; font-size: 1em;"><strong>📅 2025 - Now</strong></p>
-<p style="color: #718096; margin: 0.5em 0 0 0; font-size: 0.95em;">📍 City University of Hong Kong, Hong Kong</p>
+<p style="color: #718096; margin: 0.5em 0 0 0; font-size: 0.95em;">📍 City University of Hong Kong, Hong Kong, China</p>
 </div>
 
 <div style="background: white; border-radius: 8px; padding: 1.8em; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #4a5568;">
