@@ -20,19 +20,11 @@ redirect_from:
 
 <div style="text-align: justify; color: #2c3e50; line-height: 1.8; font-size: 1.02em;">
 <p style="margin-bottom: 1.2em;">
-<<<<<<< HEAD
-Yu Guo is currently a Research Assistant at <a href="https://jcstemlab.netlify.app/" style="color: #5a6c7d; text-decoration: none; border-bottom: 2px solid #a8b8c8;"><strong>WINET lab</strong></a>, City University of Hong Kong. From 2023 to 2024, he completed one significant visiting research period at <a href="http://www.shengfenghe.com/" style="color: #5a6c7d; text-decoration: none; border-bottom: 2px solid #a8b8c8;"><strong>VUG lab</strong></a>, Singapore Management University. He received his B.Sc. degree in Naval Architecture and Ocean Engineering from the Wuhan University of Technology, in 2021.
-</p>
-
-<p style="margin-bottom: 1.2em;">
-His research interests include <strong style="color: #4a5568;">Computer Vision</strong> and <strong style="color: #4a5568;">Generative Model</strong>. He has published over 30 papers at the top international conferences and journals <span style="display: inline-block; vertical-align: middle; margin: 0 0.3em;"><a href="https://scholar.google.com/citations?hl=en&user=5qAe9ZMAAAAJ" style="text-decoration: none; display: inline-block; vertical-align: middle;"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gy65896/google-scholar-stats/main/badge-citations.json&logo=google-scholar&logoColor=4285F4&style=flat-square" alt="Google Scholar Citations" style="vertical-align: middle;"></a></span> such as NeurIPS, ICML, ECCV.
-=======
 Yu Guo is currently a first-year PhD Student at <a href="https://jcstemlab.netlify.app/" style="color: #5a6c7d; text-decoration: none; border-bottom: 2px solid #a8b8c8;"><strong>WINET lab</strong></a>, City University of Hong Kong. From 2023 to 2024, he completed one significant visiting research period at <a href="http://www.shengfenghe.com/" style="color: #5a6c7d; text-decoration: none; border-bottom: 2px solid #a8b8c8;"><strong>VUG lab</strong></a>, Singapore Management University. He received his B.Sc. degree in Naval Architecture and Ocean Engineering from the Wuhan University of Technology, in 2021.
 </p>
 
 <p style="margin-bottom: 1.2em;">
 His research interests include <strong style="color: #4a5568;">Computer Vision</strong> and <strong style="color: #4a5568;">Generative Model</strong>. He has published over 40 papers at the top international conferences and journals <span style="display: inline-block; vertical-align: middle; margin: 0 0.3em;"><a href="https://scholar.google.com/citations?hl=en&user=5qAe9ZMAAAAJ" style="text-decoration: none; display: inline-block; vertical-align: middle;"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gy65896/google-scholar-stats/main/badge-citations.json&logo=google-scholar&logoColor=4285F4&style=flat-square" alt="Google Scholar Citations" style="vertical-align: middle;"></a></span> such as NeurIPS, ICML, ECCV.
->>>>>>> 08acacb (Update homepage content)
 </p>
 
 <div style="background: #f0f4f8; border-left: 4px solid #718096; padding: 1.2em 1.5em; border-radius: 6px; margin-top: 1.5em;">
@@ -82,11 +74,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 <h4 style="margin: 0 0 0.6em 0; font-size: 1.15em; line-height: 1.35; color: #2d3748;">
 <a href="https://arxiv.org/abs/2511.04235" style="color: #2d3748; text-decoration: none;">Shared Spatial Memory Through Predictive Coding</a>
 </h4>
-<<<<<<< HEAD
-<p style="margin: 0 0 0.4em 0; color: #718096; font-size: 0.88em; line-height: 1.5;">Zhengru Fang*, <strong>Yu Guo</strong>*, Jingjing Wang*, Yuang Zhang, Haonan An, Yinhai Wang, Yuguang Fang</p>
-=======
 <p style="margin: 0 0 0.4em 0; color: #718096; font-size: 0.88em; line-height: 1.5;">Zhengru Fang*, <strong>Yu Guo</strong>*, Jingjing Wang*, Yuang Zhang, Haonan An, Yinhai Wang, Wenbo Ding, Yuguang Fang</p>
->>>>>>> 08acacb (Update homepage content)
 <p style="margin: 0; color: #5a6c7d; font-size: 0.88em; line-height: 1.8;">
 <a href="https://fangzr.github.io/SSM-PC/index.html" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Project]</a>
 <a href="https://arxiv.org/abs/2511.04235" target="_blank" style="color: #4a5568; text-decoration: none; margin-right: 1em; font-weight: 500;">[Paper]</a>
@@ -213,6 +201,7 @@ His research interests include <strong style="color: #4a5568;">Computer Vision</
 </p>
 </div>
 </div>
+
 <!-- Paper 1: T-ITS 2023 -->
 
 <div class="representative-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; display: flex; flex-direction: row; align-items: stretch;">
@@ -422,30 +411,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <div style="background: #f8f9fa; border-radius: 10px; padding: 2em; margin: 1em 0; border: 1px solid #e0e0e0; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
 
 <div style="background: white; padding: 1.2em; border-radius: 8px; margin-bottom: 1em; border-left: 3px solid #718096; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
-<<<<<<< HEAD
-<h4 style="color: #2d3748; margin: 0 0 0.8em 0; font-size: 1.15em;">🏆 Ph.D. Period (2021-2025)</h4>
-<ul style="line-height: 2; margin: 0;">
-<li><strong>Ph.D. National Scholarship</strong> <span style="background: #718096; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; font-weight: 600;">Top 1</span>, 2023, Rank: 1</li>
-<li><strong>National Third Prize</strong> of the China Graduate Robot Innovation Design Competition, 2023, Rank: 3</li>
-<li><strong>National Second Prize</strong> of the China Intelligent Unmanned Boat Search and Rescue Competition, 2023, Rank: 5</li>
-<li><strong>First Prize</strong> of the Smart Shipping and Crew Quality Training Seminar Workshop, 2023, Rank: 1</li>
-<li><strong>Third Prize</strong> of the Smart Shipping and Crew Quality Training Seminar Workshop, 2023, Rank: 4</li>
-<li><strong>Provincial Science & Technology Progress Second Prize</strong> of China Institute of Navigation, 2023, Rank: 9</li>
-<li><strong>Best Paper Award</strong> of the AAAI-2022 Workshop: AI for Transportation, 2022, Rank: 1</li>
-</ul>
-</div>
-
-<div style="background: white; padding: 1.2em; border-radius: 8px; border-left: 3px solid #718096; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
-<h4 style="color: #2d3748; margin: 0 0 0.8em 0; font-size: 1.15em;">🎓 Undergraduate Period (2017-2021)</h4>
-<ul style="line-height: 2; margin: 0;">
-<li><strong>Excellent Undergraduate Thesis</strong> of WHUT <span style="background: #718096; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; font-weight: 600;">Top 3%</span>, 2021, Rank: 1</li>
-<li><strong>Excellent Undergraduate Graduate</strong> of WHUT, 2021, Rank: 1</li>
-<li><strong>Excellent Completion</strong> of the National Undergraduate Innovation and Entrepreneurship Training Program, 2021, Rank: 2</li>
-<li><strong>Hubei Provincial Silver Award</strong> of the China International College Students "Internet+" Innovation and Entrepreneurship Competition, 2020, Rank: 1</li>
-<li><strong>National Grand Prize</strong> of the China Ocean Vehicle Design and Production Competition, 2020, Rank: 1</li>
-<li><strong>National First Prize</strong> of the China Ocean Vehicle Design and Production Competition, 2020, Rank: 3</li>
-<li><strong>National Third Prize</strong> of the China Undergraduate Computer Design Competition, 2020, Rank: 2</li>
-=======
 <ul style="line-height: 2; margin: 0;">
 <li><strong>Academic Scholarship</strong> of the JC STEM Lab Fund, 2025.</li>
 <li><strong>National Third Prize</strong> of the China Undergraduate Computer Design Competition, 2020, Rank: 2.</li>
@@ -463,7 +428,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><strong>National Grand Prize</strong> of the China Ocean Vehicle Design and Production Competition, 2020, Rank: 1.</li>
 <li><strong>National First Prize</strong> of the China Ocean Vehicle Design and Production Competition, 2020, Rank: 3.</li>
 <li><strong>National Third Prize</strong> of the China Undergraduate Computer Design Competition, 2020, Rank: 2.</li>
->>>>>>> 08acacb (Update homepage content)
 </ul>
 </div>
 
@@ -475,8 +439,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div style="display: flex; flex-direction: column; gap: 1.2em; margin: 1em 0;">
 
-<<<<<<< HEAD
-=======
 <div style="background: white; border-radius: 8px; padding: 1.8em; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #4a5568; position: relative;">
 <div style="position: absolute; top: 1.5em; right: 1.5em; background: #5a6c7d; color: white; padding: 4px 10px; border-radius: 4px; font-size: 0.85em; font-weight: 600;">Current</div>
 <h4 style="color: #2d3748; margin: 0 0 0.5em 0; font-size: 1.2em;">🎓 Ph.D. in Computer Science</h4>
@@ -484,7 +446,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <p style="color: #718096; margin: 0.5em 0 0 0; font-size: 0.95em;">📍 City University of Hong Kong, Hong Kong</p>
 </div>
 
->>>>>>> 08acacb (Update homepage content)
 <div style="background: white; border-radius: 8px; padding: 1.8em; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #4a5568;">
 <h4 style="color: #2d3748; margin: 0 0 0.5em 0; font-size: 1.2em;">🎓 Ph.D. in Traffic Information Engineering and Control</h4>
 <p style="color: #4a5568; margin: 0.3em 0; font-size: 1em;"><strong>📅 2021 - 2025</strong></p>
@@ -512,14 +473,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <div style="display: flex; flex-direction: column; gap: 1.2em; margin: 1em 0;">
 
 <div style="background: white; border-radius: 8px; padding: 1.8em; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #5a6c7d; position: relative;">
-<<<<<<< HEAD
-<div style="position: absolute; top: 1.5em; right: 1.5em; background: #5a6c7d; color: white; padding: 4px 10px; border-radius: 4px; font-size: 0.85em; font-weight: 600;">Current</div>
-<h4 style="color: #2d3748; margin: 0 0 0.5em 0; font-size: 1.2em;">📝 Research Assistant</h4>
-<p style="color: #4a5568; margin: 0.3em 0; font-size: 1em;"><strong>📅 2024.10 - Present</strong></p>
-=======
 <h4 style="color: #2d3748; margin: 0 0 0.5em 0; font-size: 1.2em;">📝 Research Assistant</h4>
 <p style="color: #4a5568; margin: 0.3em 0; font-size: 1em;"><strong>📅 2024.10 - 2025.09</strong></p>
->>>>>>> 08acacb (Update homepage content)
 <p style="color: #718096; margin: 0.5em 0 0 0; font-size: 0.95em;">📍 City University of Hong Kong, Hong Kong, China</p>
 </div>
 
@@ -543,11 +498,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
 <h4 style="margin: 0 0 0.3em 0; color: #2d3748;">Conference Reviewer</h4>
-<<<<<<< HEAD
-<p style="margin: 0; color: #4a5568;">ICLR (2025, 2026), CVPR (2026)</p>
-=======
 <p style="margin: 0; color: #4a5568;">ICLR (2025, 2026), CVPR (2026), ICML (2026), ECCV (2026)</p>
->>>>>>> 08acacb (Update homepage content)
 </div>
 <div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
 <h4 style="margin: 0 0 0.3em 0; color: #2d3748;">Journal Reviewer</h4>
@@ -562,10 +513,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <div style="background: #f8f9fa; border-radius: 10px; padding: 2em; margin: 1.5em 0; border: 1px solid #e0e0e0; box-shadow: 0 2px 8px rgba(0,0,0,0.06); display: flex; flex-direction: column; gap: 1.2em;">
 <div style="background: white; padding: 1.5em; border-radius: 8px; border-left: 4px solid #4a5568; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
 <h4 style="margin: 0 0 0.3em 0; color: #2d3748;">TA · Introduction to Computer Programming</h4>
-<<<<<<< HEAD
-<p style="margin: 0; color: #4a5568;">City University of Hong Kong · Spring 2025 · Assisting recitation sessions and grading</p>
-=======
 <p style="margin: 0; color: #4a5568;">City University of Hong Kong · 2025.09 - 2026.06 · Assisting recitation sessions and grading</p>
->>>>>>> 08acacb (Update homepage content)
 </div>
 </div>
