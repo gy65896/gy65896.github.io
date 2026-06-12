@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu Guo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#fefffe',
+              foreground: '#0f172a',
+              primary: '#1e293b',
+              accent: '#d4a562',
+              'accent-dark': '#b88a4d',
+              muted: '#64748b'
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Crimson Text', 'serif']
+            }
+          }
+        }
+      };
+    </script>
+</head>
+<body class="bg-background text-foreground antialiased font-sans">
+    <nav class="top-nav glass fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 lg:h-20">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl lg:text-2xl font-serif font-semibold text-primary hover:text-accent transition-colors duration-200">
+                        Yu Guo
+                    </a>
+                </div>
+
+                <div class="hidden lg:block">
+                    <div class="ml-10 flex items-center space-x-8">
+                        <ul class="nav-links flex space-x-8">
+                            <li><a href="#homepage" class="nav-item">Homepage</a></li>
+                            <li><a href="#about" class="nav-item">About</a></li>
+                            <li><a href="#latest-news" class="nav-item">News</a></li>
+                            <li><a href="#publications" class="nav-item">Publications</a></li>
+                            <li><a href="#honors" class="nav-item">Honors</a></li>
+                            <li><a href="#services" class="nav-item">Service</a></li>
+                            <li><a href="#educations" class="nav-item">Education</a></li>
+                            <li><a href="#contact" class="nav-item">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="lg:hidden flex items-center">
+                    <button class="mobile-menu-btn p-2 rounded-md text-neutral-600 hover:text-primary" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mobile-menu hidden lg:hidden absolute top-16 left-0 w-full bg-white/95 backdrop-blur-md border-b border-neutral-200 shadow-lg" id="mobile-menu">
+                <ul class="flex flex-col py-4 px-4 space-y-4">
+                    <li><a href="#homepage" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Homepage</a></li>
+                    <li><a href="#about" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">About</a></li>
+                    <li><a href="#latest-news" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">News</a></li>
+                    <li><a href="#publications" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Publications</a></li>
+                    <li><a href="#honors" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Honors</a></li>
+                    <li><a href="#services" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Service</a></li>
+                    <li><a href="#educations" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Education</a></li>
+                    <li><a href="#contact" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="min-h-screen pt-20 lg:pt-28 pb-12">
+        <div class="w-full max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid-layout">
+                <div class="profile-column">
+                    <div class="profile-card sticky top-24">
+                        <div class="profile-image-container mb-6 mx-auto max-w-[180px]">
+                            <img src="assets/profile.png" alt="Profile portrait" class="w-full h-auto rounded-xl shadow-sm">
+                        </div>
+
+                        <div class="text-center mb-6">
+                            <h1 class="text-3xl font-serif font-bold text-primary mb-2">Yu Guo | 郭彧</h1>
+                            <p class="text-lg text-accent font-medium mb-1">PhD Student</p>
+                            <p class="text-neutral-600 mb-2">City University of Hong Kong</p>
+                        </div>
+
+                        <div class="social-links flex flex-wrap justify-center gap-3 mb-6">
+                            <a href="mailto:guoyu65896@gmail.com" class="social-btn" title="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social-btn" title="CV"><i class="fas fa-file-pdf"></i></a>
+                            <a href="https://scholar.google.com/citations?view_op=list_works&user=5qAe9ZMAAAAJ" target="_blank" rel="noopener noreferrer" class="social-btn" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                            <a href="https://github.com/gy65896" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.researchgate.net/profile/Yu-Guo-87" target="_blank" rel="noopener noreferrer" class="social-btn" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                            <a href="https://gy65896.github.io/" target="_blank" rel="noopener noreferrer" class="social-btn" title="Website"><i class="fas fa-link"></i></a>
+                        </div>
+
+                        <div class="research-interests-card bg-neutral-100 rounded-xl p-5 mb-6">
+                            <h3 class="font-serif font-bold text-lg text-primary mb-4 pb-2 border-b border-neutral-200 flex items-center">
+                                <i class="fas fa-lightbulb text-accent mr-2 text-base"></i> Research Interests
+                            </h3>
+                            <ul class="space-y-3">
+                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
+                                    <i class="fas fa-brain text-accent/80 mr-3 w-5 text-center text-sm"></i>
+                                    <span class="text-sm font-medium">Machine Learning</span>
+                                </li>
+                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
+                                    <i class="fas fa-eye text-accent/80 mr-3 w-5 text-center text-sm"></i>
+                                    <span class="text-sm font-medium">Computer Vision</span>
+                                </li>
+                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
+                                    <i class="fas fa-image text-accent/80 mr-3 w-5 text-center text-sm"></i>
+                                    <span class="text-sm font-medium">Image Generation</span>
+                                </li>
+                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
+                                    <i class="fas fa-globe text-accent/80 mr-3 w-5 text-center text-sm"></i>
+                                    <span class="text-sm font-medium">World Model</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-column space-y-12">
+                    <section id="homepage" class="scroll-mt-24">
+                        <span id="about"></span>
+                        <div class="section-header mb-6">
+                            <h2 class="text-3xl font-serif font-bold text-primary">About Me</h2>
+                        </div>
+                        <div class="prose max-w-none text-neutral-600 text-justify formal-font">
+                            <p class="mb-4">
+                                I am currently pursuing my PhD degree in the Department of Computer Science at City University of Hong Kong. Before that, I received my B.Eng. and Ph.D. degree from Wuhan University of Technology, Wuhan, China, in 2021 and 2026. My research lies at the intersection of Computer Vision, Image Generation, and World Model. 
+                                <span style="display: inline-flex; vertical-align: middle; margin: 0 0.35em;"><a href="https://scholar.google.com/citations?hl=en&user=5qAe9ZMAAAAJ" style="text-decoration: none; display: inline-flex; align-items: center;"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gy65896/google-scholar-stats/main/badge-citations.json&logo=google-scholar&style=flat&color=d4a562&labelColor=eddabd&logoColor=d4a562" alt="Google Scholar Citations" style="height: 20px; border-radius: 999px; box-shadow: 0 1px 2px rgba(0,0,0,0.12);"></a></span>
+                            </p>
+
+                            <div class="highlight-box bg-accent/10 border-l-4 border-accent p-4 rounded-r-lg text-left font-sans">
+                                <p>
+                                    <strong><i class="fas fa-lightbulb text-accent mr-2"></i>Open to collaboration.</strong>
+                                    I am actively seeking like-minded collaborators.</strong> If you are interested in my work, please feel free to contact me via email: <a href="mailto:guoyu65896@gmail.com" style="color: #5a6c7d; text-decoration: none; font-weight: 600;">guoyu65896@gmail.com</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="research-thrust" class="scroll-mt-24">
+                        <div class="section-header mb-6">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Research Overview</h2>
+                        </div>
+                        <div class="prose max-w-none text-neutral-600 text-justify formal-font">
+                            <!-- <blockquote class="pl-4 border-l-4 border-accent/30 italic text-neutral-600 bg-neutral-50/50 p-4 rounded-r-lg mb-6">
+                                "Use this section to summarize your long-term research vision in one or two sentences."
+                            </blockquote>
+
+                            <p class="mb-8">
+                                The layout below provides two compact research thrust cards. You can rename, remove, or expand them to fit your own research agenda.
+                            </p> -->
+
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
+                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
+                                        <i class="fas fa-eye text-accent mr-2 group-hover:scale-110 transition-transform"></i> Visual Understanding and Generation
+                                    </h3>
+                                    <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow">
+                                        Study visual understanding and generation with VLM/LLM models, spanning multimodal representation learning, instruction-following generation, and world modeling for interactive and embodied scenarios.
+                                    </p>
+                                </div>
+                                <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
+                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
+                                        <i class="fas fa-magic text-accent mr-2 group-hover:scale-110 transition-transform"></i> Image Restoration
+                                    </h3>
+                                    <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow">
+                                        Develop robust and efficient image restoration models for real-world degradations (e.g., low-light, haze, rain, and composite degradations), with an emphasis on generalization, controllability, and practical deployment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="latest-news" class="scroll-mt-24">
+                        <div class="section-header mb-6 flex justify-between items-center">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Latest News</h2>
+                            <a href="pages/all-news.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors">View All <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                        <div id="news-container" class="news-list space-y-4"></div>
+                    </section>
+
+                    <section id="publications" class="scroll-mt-24">
+                        <div class="section-header mb-6 flex justify-between items-start gap-4">
+                            <div>
+                                <h2 class="text-3xl font-serif font-bold text-primary">Selected Publications</h2>
+                            </div>
+                            <a href="pages/all-publications.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors whitespace-nowrap mt-1">View Full List <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+
+                        <div id="featured-publications-container" class="publications-list space-y-6"></div>
+                    </section>
+
+                    <section id="honors" class="scroll-mt-24">
+                        <div class="section-header mb-6 flex justify-between items-center">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Honors & Awards</h2>
+                            <a href="pages/all-honors.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors">View All <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                        <div id="honors-container" class="honors-list space-y-4"></div>
+                    </section>
+
+                    <section id="services" class="scroll-mt-24">
+                        <div class="section-header mb-6">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Academic Service</h2>
+                        </div>
+                        <div class="timeline space-y-6">
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Conference Administrator & Reviewer</h3>
+                                    <p class="text-sm text-accent font-medium">Area Chair</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</p>
+                                    <p class="text-sm text-accent font-medium">Reviewer</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• European Conference on Computer Vision (ECCV)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• Conference on Neural Information Processing Systems (NeurIPS)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• International Conference on Learning Representations (ICLR)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• International Conference on Machine Learning (ICML)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• Pacific Graphics (PG)</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Journal Administrator & Reviewer</h3>
+                                    <p class="text-sm text-accent font-medium">Editor-in-Chief Assistant</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE Transactions on Machine Learning in Communications and Networking (TMLCN)</p>
+                                    <p class="text-sm text-accent font-medium">Peer Reviewer</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE Transactions on Image Processing (TIP)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE Transactions on Vehicular Technology (TVT)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE Transactions on Industrial Informatics (TII)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• Engineering Applications of Artificial Intelligence (EAAI)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• Pattern Recognition (PR)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• Neural Networks (NN)</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Teaching Assistant</h3>
+                                    <p class="text-sm text-accent font-medium">City University of Hong Kong</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed pl-4">• CS1302 Introduction to Computer course (2025 Fall, 2026 Spring)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="educations" class="scroll-mt-24">
+                        <div class="section-header mb-6">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Education</h2>
+                        </div>
+                        <div class="timeline space-y-6">
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <img src="assets/publications/logo/cityu.png" alt="City University of Hong Kong" class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">PhD @ City University of Hong Kong</h3>
+                                    <p class="text-sm text-accent font-medium">2025 - Present</p>
+                                    <p class="text-sm text-neutral-600 mt-1">School of Computer Science</p>
+                                    <p class="text-sm text-neutral-600 mt-1">Supervisor: Prof. Yuguang "Michael" Fang</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <img src="assets/publications/logo/smu.jpg" alt="Singapore Management University" class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Visiting PhD @ Singapore Management University</h3>
+                                    <p class="text-sm text-accent font-medium">2023 - 2024</p>
+                                    <p class="text-sm text-neutral-600 mt-1">School of Computing and Information Systems</p>
+                                    <p class="text-sm text-neutral-600 mt-1">Supervisor: Prof. Shengfeng He</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <img src="assets/publications/logo/whut.png" alt="Wuhan University of Technology" class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">PhD @ Wuhan University of Technology</h3>
+                                    <p class="text-sm text-accent font-medium">2021 - 2026</p>
+                                    <p class="text-sm text-neutral-600 mt-1">School of Navigation</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <img src="assets/publications/logo/whut.png" alt="Wuhan University of Technology" class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">BEng @ Wuhan University of Technology</h3>
+                                    <p class="text-sm text-accent font-medium">2017 - 2021</p>
+                                    <p class="text-sm text-neutral-600 mt-1">School of Transportation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="work" class="scroll-mt-24">
+                        <div class="section-header mb-6">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Work Experience</h2>
+                        </div>
+                        <div class="timeline space-y-6">
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <img src="assets/publications/logo/cityu.png" alt="City University of Hong Kong" class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Research Assistant @ City University of Hong Kong</h3>
+                                    <p class="text-sm text-accent font-medium">2024 - 2025</p>
+                                    <p class="text-sm text-neutral-600 mt-1">School of Computer Science</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <img src="assets/publications/logo/cityu.png" alt="City University of Hong Kong" class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Remote Intern @ City University of Hong Kong</h3>
+                                    <p class="text-sm text-accent font-medium">2024 - 2024</p>
+                                    <p class="text-sm text-neutral-600 mt-1">School of Computer Science</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="contact" class="scroll-mt-24">
+                        <div class="section-header mb-6">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Contact</h2>
+                        </div>
+                        <div class="contact-card bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
+                            <div class="mb-4">
+                                <h3 class="font-semibold text-primary mb-2">Office Address</h3>
+                                <p class="text-neutral-600 flex items-start gap-2">
+                                    <i class="fas fa-map-marker-alt mt-1 text-accent"></i>
+                                    <span>83 Tat Chee Avenue Kowloon, Hong Kong</span>
+                                </p>
+                            </div>
+                            <div class="mb-4">
+                                <h3 class="font-semibold text-primary mb-2">Email</h3>
+                                <p class="text-neutral-600 flex items-start gap-2">
+                                    <i class="fas fa-envelope mt-1 text-accent"></i>
+                                    <span>guoyu65896@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="map-container rounded-lg overflow-hidden shadow-sm border border-neutral-100 mb-4">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.4156431518!2d114.16990907694372!3d22.3379294415273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040736e9ad7dd3%3A0x1706ff4e8aa79fd1!2z5Lmd6b6N5aGY6YGU5LmL6LevODPomZ_lrbjooZPmqJMgKOS4iSk!5e0!3m2!1szh-CN!2shk!4v1747664344094!5m2!1szh-CN!2shk"
+                                    width="100%" 
+                                    height="200" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                            <div class="visitor-stats text-center">
+                                <h3 class="font-semibold text-primary mb-2">Visitor Statistics</h3>
+                                <div style="display: flex; justify-content: center; width: 100%; max-width: 300px; margin: 0 auto; min-height: 200px;">
+                                    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=mQsm0BAgl67O4TWcNjH0M8eFDDt8LybAPgydtj-G3B8"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-neutral-200 py-8 mt-12 bg-neutral-50">
+        <div class="max-w-[90rem] mx-auto px-4 text-center text-neutral-500 text-sm">
+            <p>&copy; <span id="current-year"></span> Yu Guo. All rights reserved.</p>
+            <p class="mt-2">Built with <a href="https://github.com/yihangtao/AcaNova-X" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline font-medium">AcaNova-X</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

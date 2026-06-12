@@ -1,0 +1,1054 @@
+[
+  {
+    "title": "Universal Image Restoration via Internalized Chain-of-Thought Reasoning",
+    "displayTitle": "Universal Image Restoration via Internalized Chain-of-Thought Reasoning",
+    "authors": "<strong>Yu Guo</strong><sup>&dagger;</sup>, Zhengru Fang<sup>&dagger;</sup>, Shengfeng He, Senkang Hu, Yihang Tao, Phone Lin, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 1,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "assets/publications/papers/ArXiv2026_CoTIR/cotir.png", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/papers/ArXiv2026_CoTIR/method.jpg",
+    "tags": [
+      { "text": "Paper", "link": "#" },
+      { "text": "Code", "link": "https://github.com/gy65896/CoTIR" },
+      { "text": "Project Page", "link": "https://github.com/gy-homepage/gy-homepage/projects/ArXiv2026_CoTIR" }
+    ]
+  },
+  {
+    "title": "Inference-Time Budget Control for LLM Search Agents",
+    "displayTitle": "Inference-Time Budget Control for LLM Search Agents",
+    "authors": "Zhengru Fang, Senkang Forest Hu, Zhonghao Chang, <strong>Yu Guo</strong>, Yihang Tao, Hongyao Liu, Mengzhe Ruan, Jun Huang, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 2,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2026_VOI.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2605.05701" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "FRUC: Feedforward Dynamic Scene Reconstruction from Uncalibrated Collaborative Driving Views",
+    "displayTitle": "FRUC: Feedforward Dynamic Scene Reconstruction from Uncalibrated Collaborative Driving Views",
+    "authors": "Yihang Tao, <strong>Yu Guo</strong>, Zhengru Fang, Haonan An, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 3,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/2026_FRUC.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2605.29997" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "V2XCrafter: Learning to Generate Driving Scene Across Agents",
+    "displayTitle": "V2XCrafter: Learning to Generate Driving Scene Across Agents",
+    "authors": "Yihang Tao<sup>&dagger;</sup>, <strong>Yu Guo</strong><sup>&dagger;</sup>, Senkang Hu, Yanan Ma, Zihan Fang, Sam Kwong, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 4,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/2026_V2XCrafter.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2605.29471" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "CXR-ContraBench: Benchmarking Negated-Option Attraction in Medical VLMs",
+    "displayTitle": "CXR-ContraBench: Benchmarking Negated-Option Attraction in Medical VLMs",
+    "authors": "Zhengru Fang, Yanan Ma, <strong>Yu Guo</strong>, Senkang Hu, Yixian Zhang, Hangcheng Cao, Wenbo Ding, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 5,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2026_CXR-ContraBench.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2605.05810" },
+      { "text": "Code", "link": "https://github.com/fangzr/cxr-contrabench-code" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Agent-centric Visual Reinforcement Learning under Dynamic Perturbations",
+    "displayTitle": "Agent-centric Visual Reinforcement Learning under Dynamic Perturbations",
+    "authors": "Zhengru Fang<sup>&dagger;</sup>, <strong>Yu Guo</strong><sup>&dagger;</sup>, Yu Guo, Fei Liu, Yuang Zhang, Yihang Tao, Senkang Hu, Wenbo Ding, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 6,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2026_ACO-MoE.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2604.24661" },
+      { "text": "Code", "link": "https://github.com/fangzr/aco-moe-code" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Birdcast: Interest-aware BEV Multicasting for Infrastructure-assisted Collaborative Perception",
+    "displayTitle": "Birdcast: Interest-aware BEV Multicasting for Infrastructure-assisted Collaborative Perception",
+    "authors": "Yanan Ma, Zhengru Fang, Yihang Tao, <strong>Yu Guo</strong>, Yiqin Deng, Xianhao Chen, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 7,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2026_Birdcast.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2604.00701" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Optimizing Agentic Reasoning with Retrieval via Synthetic Semantic Information Gain Reward",
+    "displayTitle": "Optimizing Agentic Reasoning with Retrieval via Synthetic Semantic Information Gain Reward",
+    "authors": "Senkang Hu, Yong Dai, Yuzhi Zhao, Yihang Tao, <strong>Yu Guo</strong>, Zhengru Fang, Sam Tak Wu Kwong, Yuguang Fang",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 8,
+    "venue": "ICML 2026",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/icml-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ICML2026_InfoReasoner.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2602.00845" },
+      { "text": "Code", "link": "https://github.com/dl-m9/InfoReasoner" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "DSP-Reg: Domain-sensitive Parameter Regularization for Robust Domain Generalization",
+    "displayTitle": "DSP-Reg: Domain-sensitive Parameter Regularization for Robust Domain Generalization",
+    "authors": "Xudong Han, Senkang Hu, Yihang Tao, <strong>Yu Guo</strong>, Philip Birch, Sam Tak Wu Kwong, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 9,
+    "venue": "arxiv",
+    "year": "2026",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2026_DSP-Reg.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2601.19394" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Shared Spatial Memory Through Predictive Coding",
+    "displayTitle": "Shared Spatial Memory Through Predictive Coding",
+    "authors": "Zhengru Fang<sup>&dagger;</sup>, <strong>Yu Guo</strong><sup>&dagger;</sup>, Yuang Zhang, Haonan An, Wenbo Ding, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 10,
+    "venue": "arxiv",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2025_SSM-PC.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2511.04235" },
+      { "text": "Code", "link": "https://github.com/fangzr/SSM-PC" },
+      { "text": "Project Page", "link": "https://fangzr.github.io/SSM-PC/index.html" }
+    ]
+  },
+  {
+    "title": "Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection",
+    "displayTitle": "Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection",
+    "authors": "<strong>Yu Guo</strong>, Shengfeng He, Yuxu Lu, Haonan An, Yihang Tao, Huilin Zhu, Jingxian Liu, Yuguang Fang",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 11,
+    "venue": "NeurIPS 2025",
+    "year": "2025",
+    "highlight": "(Spotlight, Top 3.5%)",
+    "logos": [
+      { "image": "assets/publications/logo/neurips-logo.svg", "alt": "Venue" },
+      { "image": "assets/publications/papers/NeurIPS2025_Neptune-X/logo_Neptune-X.png", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/papers/NeurIPS2025_Neptune-X/abstract.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d7b0baefb84b8ddf6fbf6ec0f5d4fda3-Abstract-Conference.html" },
+      { "text": "Code", "link": "https://github.com/gy65896/Neptune-X" },
+      { "text": "Project Page", "link": "https://gy65896.github.io/projects/NeurIPS2025_Neptune-X/index.html" }
+    ]
+  },
+  {
+    "title": "NWaaS: Nonintrusive Watermarking as a Service for X-to-Image DNN",
+    "displayTitle": "NWaaS: Nonintrusive Watermarking as a Service for X-to-Image DNN",
+    "authors": "Haonan An, Guang Hua, <strong>Yu Guo</strong>, Hangcheng Cao, Susanto Rahardja, Yuguang Fang",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 12,
+    "venue": "arxiv",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2025_NWaaS.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2507.18036" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Advanced Long-term Earth System Forecasting",
+    "displayTitle": "Advanced Long-term Earth System Forecasting",
+    "authors": "Hao Wu, Yuan Gao, Ruijian Gou, Xian Wu, Chuhan Wu, Huahui Yi, Johannes Brandstetter, Fan Xu, Kun Wang, Penghao Zhao, Hao Jia, Qi Song, Xinliang Liu, Juncai He, Shuhao Cao, Huanshuo Dong, Yanfei Xiang, Fan Zhang, Haixin Wang, Xingjian Shi, Qiufeng Wang, Shuaipeng Li, Ruobing Xie, Feng Tao, Yuxu Lu, <strong>Yu Guo</strong>, Yuntian Chen, Yuxuan Liang, Qingsong Wen, Wanli Ouyang, Deliang Chen, Niklas Boers, Xiaomeng Huang",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 13,
+    "venue": "arxiv",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "assets/publications/coauthor/ArXiv2025_TritonCast4Earth-logo.jpg", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2025_TritonCast4Earth.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2505.19432" },
+      { "text": "Code", "link": "https://github.com/Alexander-wu/TritonCast" },
+      { "text": "Project Page", "link": "https://tritoncast4earth.netlify.app" }
+    ]
+  },
+  {
+    "title": "Instruct2See: Learning to Remove Any Obstructions Across Distributions",
+    "displayTitle": "Instruct2See: Learning to Remove Any Obstructions Across Distributions",
+    "authors": "Junhang Li<sup>&dagger;</sup>, <strong>Yu Guo</strong><sup>&dagger;</sup>, Chuhua Xian, Shengfeng He",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 14,
+    "venue": "ICML 2025",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/icml-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ICML2025_Instruct2See.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://proceedings.mlr.press/v267/li25s.html" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "https://jhscut.github.io/Instruct2See" }
+    ]
+  },
+  {
+    "title": "Task-oriented Communications for Visual Navigation with Edge-aerial Collaboration in Low Altitude Economy",
+    "displayTitle": "Task-oriented Communications for Visual Navigation with Edge-aerial Collaboration in Low Altitude Economy",
+    "authors": "Zhengru Fang, Zhenghao Liu, Jingjing Wang, Senkang Hu, <strong>Yu Guo</strong>, Yiqin Deng, Yuguang Fang",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 15,
+    "venue": "GLOBECOM 2025",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/globecom-logo.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/GLOBECOM2025_TOC.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/11432022" },
+      { "text": "Code", "link": "https://github.com/fangzr/TOC-Edge-Aerial" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Towards a Physical Imaging-driven Sparse Attention Dehazer for Internet of Things-aided Maritime Intelligent Transportation",
+    "displayTitle": "Towards a Physical Imaging-driven Sparse Attention Dehazer for Internet of Things-aided Maritime Intelligent Transportation",
+    "authors": "Yuxuan Tian, <strong>Yu Guo</strong><sup>✉</sup>, Yuxu Lu, Yuan Gao, Ryan Wen Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 16,
+    "venue": "CAEE",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/elsevier-non-solus.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/CAEE2025_PSDformer.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S0045790625002009" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "FocalCount: Towards Class-count Imbalance in Class-agnostic Counting",
+    "displayTitle": "FocalCount: Towards Class-count Imbalance in Class-agnostic Counting",
+    "authors": "Huilin Zhu, Jingling Yuan, Zhengwei Yang, <strong>Yu Guo</strong>, Xian Zhong, Shengfeng He",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 17,
+    "venue": "arxiv",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2025_FocalCount.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2502.10677" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Expanding Zero-shot Object Counting with Rich Prompts",
+    "displayTitle": "Expanding Zero-shot Object Counting with Rich Prompts",
+    "authors": "Huilin Zhu, Senyao Li, Jingling Yuan, Zhengwei Yang, <strong>Yu Guo</strong>, Wenxuan Liu, Xian Zhong, Shengfeng He",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 18,
+    "venue": "arxiv",
+    "year": "2025",
+    "logos": [
+      { "image": "assets/publications/logo/arxiv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ArXiv2025_RichCount.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2505.15398" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "OneRestore: A Universal Restoration Framework for Composite Degradation",
+    "displayTitle": "OneRestore: A Universal Restoration Framework for Composite Degradation",
+    "authors": "<strong>Yu Guo</strong><sup>&dagger;</sup>, Yuan Gao<sup>&dagger;</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 19,
+    "venue": "ECCV 2024",
+    "year": "2024",
+    "logos": [
+      { "image": "assets/publications/logo/eccv-logo.svg", "alt": "Venue" },
+      { "image": "assets/publications/papers/ECCV2024_OneRestore/logo_onerestore.png", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/papers/ECCV2024_OneRestore/abstract.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://link.springer.com/chapter/10.1007/978-3-031-72655-2_15" },
+      { "text": "Code", "link": "https://github.com/gy65896/OneRestore" },
+      { "text": "Project Page", "link": "https://gy65896.github.io/projects/ECCV2024_OneRestore/index.html" }
+    ]
+  },
+  {
+    "title": "Zero-shot Object Counting with Good Exemplars",
+    "displayTitle": "Zero-shot Object Counting with Good Exemplars",
+    "authors": "Huilin Zhu, Jingling Yuan, Zhengwei Yang, <strong>Yu Guo</strong>, Zheng Wang, Xian Zhong, Shengfeng He",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 20,
+    "venue": "ECCV 2024",
+    "year": "2024",
+    "logos": [
+      { "image": "assets/publications/logo/eccv-logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ECCV2024_VA-Count.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://link.springer.com/chapter/10.1007/978-3-031-72652-1_22" },
+      { "text": "Code", "link": "https://github.com/HopooLinZ/VA-Count" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Real-time Multi-scene Visibility Enhancement for Promoting Navigational Safety of Vessels Under Complex Weather Conditions",
+    "displayTitle": "Real-time Multi-scene Visibility Enhancement for Promoting Navigational Safety of Vessels Under Complex Weather Conditions",
+    "authors": "Ryan Wen Liu, Yuxu Lu, Yuan Gao, <strong>Yu Guo</strong>, Wenqi Ren, Fenghua Zhu, Fei-Yue Wang",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 21,
+    "venue": "TITS",
+    "year": "2024",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TITS2024_ERANet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10682473/" },
+      { "text": "Code", "link": "https://github.com/LouisYuxuLu/ERANet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "S3Net: Semi-self-supervised Neural Network for Visibility Enhancement of Speckled Images",
+    "displayTitle": "S3Net: Semi-self-supervised Neural Network for Visibility Enhancement of Speckled Images",
+    "authors": "Ryan Wen Liu, <strong>Yu Guo</strong><sup>✉</sup>, Yuxu Lu, Xi-Le Zhao, An-An Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 22,
+    "venue": "CAEE",
+    "year": "2024",
+    "logos": [
+      { "image": "assets/publications/logo/elsevier-non-solus.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/CAEE2024_S3Net.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S004579062400291X" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "MvKSR: Multi-view Knowledge-guided Scene Recovery for Hazy and Rainy Degradation",
+    "displayTitle": "MvKSR: Multi-view Knowledge-guided Scene Recovery for Hazy and Rainy Degradation",
+    "authors": "Wenyu Xu, Dong Yang, Yuan Gao, Yuxu Lu, Jingming Zhang, <strong>Yu Guo</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 23,
+    "venue": "TIM",
+    "year": "2024",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TIM2024_MvKSR.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10598186" },
+      { "text": "Code", "link": "https://github.com/LouisYuxuLu/MvKSR" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "AoSRNet: All-in-One Scene Recovery Networks via Multi-knowledge Integration",
+    "displayTitle": "AoSRNet: All-in-One Scene Recovery Networks via Multi-knowledge Integration",
+    "authors": "Yuxu Lu, Dong Yang, Yuan Gao, Ryan Wen Liu, Jun Liu, <strong>Yu Guo</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 24,
+    "venue": "KBS",
+    "year": "2024",
+    "logos": [
+      { "image": "assets/publications/logo/elsevier-non-solus.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/KBS2024_AoSRNet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S0950705124004209" },
+      { "text": "Code", "link": "https://github.com/LouisYuxuLu/AoSRNet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Double Domain Guided Real-time Low-light Image Enhancement for Ultra-high-definition Transportation Surveillance",
+    "displayTitle": "Double Domain Guided Real-time Low-light Image Enhancement for Ultra-high-definition Transportation Surveillance",
+    "authors": "Jingxiang Qu, Ryan Wen Liu, Yuan Gao, <strong>Yu Guo</strong>, Fenghua Zhu, Fei-Yue Wang",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 25,
+    "venue": "TITS",
+    "year": "2024",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TITS2024_DDNet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10423894" },
+      { "text": "Code", "link": "https://github.com/QuJX/DDNet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "AiOENet: All-in-one Low-visibility Enhancement to Improve Visual Perception for Intelligent Marine Vehicles Under Severe Weather Conditions",
+    "displayTitle": "AiOENet: All-in-one Low-visibility Enhancement to Improve Visual Perception for Intelligent Marine Vehicles Under Severe Weather Conditions",
+    "authors": "Ryan Wen Liu, Yuxu Lu, <strong>Yu Guo</strong>, Wenqi Ren, Fenghua Zhu, Yisheng Lv",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 26,
+    "venue": "TIV",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TIV2024_AiOENet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10375786" },
+      { "text": "Code", "link": "https://github.com/LouisYuxuLu/AiOENet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Multi-task Learning-enabled Automatic Vessel Draft Reading for Intelligent Maritime Surveillance",
+    "displayTitle": "Multi-task Learning-enabled Automatic Vessel Draft Reading for Intelligent Maritime Surveillance",
+    "authors": "Jingxiang Qu, Ryan Wen Liu, Chenjie Zhao, <strong>Yu Guo</strong>, Sendren Sheng-Dong Xu, Fenghua Zhu, Yisheng Lv",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 27,
+    "venue": "TITS",
+      "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TITS2023_MLAV.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10311073" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Haze Visibility Enhancement for Promoting Traffic Situational Awareness in Vision-enabled Intelligent Transportation",
+    "displayTitle": "Haze Visibility Enhancement for Promoting Traffic Situational Awareness in Vision-enabled Intelligent Transportation",
+    "authors": "<strong>Yu Guo</strong>, Ryan Wen Liu, Yuxu Lu, Jiangtian Nie, Lingjuan Lyu, Zehui Xiong, Jiawen Kang, Han Yu, Dusit Niyato",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 28,
+    "venue": "TVT",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TVT2023_DADFNet+.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10192090" },
+      { "text": "Code", "link": "https://github.com/gy65896/DADFNet_plus" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways",
+    "displayTitle": "Asynchronous Trajectory Matching-based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways",
+    "authors": "<strong>Yu Guo</strong>, Ryan Wen Liu, Jingxiang Qu, Yuxu Lu, Fenghua Zhu, Yisheng Lv",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 29,
+    "venue": "TITS",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/papers/TITS2023_DeepSORVF/method.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10159572" },
+      { "text": "Code", "link": "https://github.com/gy65896/DeepSORVF" },
+      { "text": "Project Page", "link": "https://gy65896.github.io/projects/TITS2023_DeepSORVF/index.html" }
+    ]
+  },
+  {
+    "title": "Improving Maritime Traffic Surveillance in Inland Waterways using the Robust Fusion of AIS and Visual Data",
+    "displayTitle": "Improving Maritime Traffic Surveillance in Inland Waterways using the Robust Fusion of AIS and Visual Data",
+    "authors": "Jingxiang Qu, Ryan Wen Liu, <strong>Yu Guo</strong>, Yuxu Lu, Jianlong Su, Peizheng Li",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 30,
+    "venue": "OE",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/elsevier-non-solus.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/OE2023_AISVF.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S0029801823005826" },
+      { "text": "Code", "link": "https://github.com/QuJX/AIS-Visual-Fusion" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "DADFNet: Dual Attention and Dual Frequency-guided Dehazing Network for Video-empowered Intelligent Transportation",
+    "displayTitle": "DADFNet: Dual Attention and Dual Frequency-guided Dehazing Network for Video-empowered Intelligent Transportation",
+    "authors": "<strong>Yu Guo</strong>, Ryan Wen Liu, Jiangtian Nie, Lingjuan Lyu, Zehui Xiong, Jiawen Kang, Han Yu, Dusit Niyato",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 31,
+    "venue": "AAAIW",
+    "highlight": "(Best Paper Award)",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/aaai-logo.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/AAAIW2023_DADFNet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2304.09588" },
+      { "text": "Code", "link": "https://github.com/gy65896/DADFNet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Blind Image Despeckling Using Multi-scale Attention-guided Neural Network",
+    "displayTitle": "Blind Image Despeckling Using Multi-scale Attention-guided Neural Network",
+    "authors": "<strong>Yu Guo</strong>, Yuxu Lu, Ryan Wen Liu, Fenghua Zhu",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 32,
+    "venue": "TAI",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TAI2023_MSANN.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10012299" },
+      { "text": "Code", "link": "https://github.com/gy65896/MSANN" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "NTIRE 2023 HR Nonhomogeneous Dehazing Challenge Report",
+    "displayTitle": "NTIRE 2023 HR Nonhomogeneous Dehazing Challenge Report",
+    "authors": "Codruta O Ancuti, Cosmin Ancuti, Florin-Alexandru Vasluianu, Radu Timofte, Han Zhou, Wei Dong, Yangyi Liu, Jun Chen, Huan Liu, Liangyan Li, Zijun Wu, Yubo Dong, Yuyan Li, Tian Qiu, Yu He, Yonghong Lu, Yinwei Wu, Zhenxiang Jiang, Songhua Liu, Xingyi Yang, Yongcheng Jing, Bilel Benjdira, Anas M Ali, Anis Koubaa, Hao-Hsiang Yang, I Chen, Wei-Ting Chen, Zhi-Kai Huang, Yi-Chung Chen, Chia-Hsuan Hsieh, Hua-En Chang, Yuan-Chun Chiang, Sy-Yen Kuo, <strong>Yu Guo</strong>, Yuan Gao, Ryan Wen Liu, Yuxu Lu, Jingxiang Qu, Shengfeng He, Wenqi Ren, Trung Hoang, Haichuan Zhang, Amirsaeed Yazdani, Vishal Monga, Lehan Yang, Alex Jiahao Wu, Tiancheng Mai, Xiaofeng Cong, Xuemeng Yin, Xuefei Yin, Hazim Emad, Ahmed Abdallah, Yahya Yasser, Dalia Elshahat, Esraa Elbaz, Zhan Li, Wenqing Kuang, Ziwei Luo, Fredrik K Gustafsson, Zheng Zhao, Jens Sjölund, Thomas B Schön, Zhao Zhang, Yanyan Wei, Junhu Wang, Suiyi Zhao, Huan Zheng, Jin Guo, Yangfan Sun, Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 33,
+    "venue": "CVPRW",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/cvpr2023_logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/CVPRW2023_Report.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Ancuti_NTIRE_2023_HR_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2023_paper.html" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "SCANet: Self-paced Semi-curricular Attention Network for Non-homogeneous Image Dehazing",
+    "displayTitle": "SCANet: Self-paced Semi-curricular Attention Network for Non-homogeneous Image Dehazing",
+    "authors": "<strong>Yu Guo</strong>, Yuan Gao, Ryan Wen Liu, Yuxu Lu, Jingxiang Qu, Shengfeng He, Wenqi Ren",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 34,
+    "venue": "CVPRW",
+    "year": "2023",
+    "logos": [
+      { "image": "assets/publications/logo/cvpr2023_logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/CVPRW2023_SCANet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Guo_SCANet_Self-Paced_Semi-Curricular_Attention_Network_for_Non-Homogeneous_Image_Dehazing_CVPRW_2023_paper.html" },
+      { "text": "Code", "link": "https://github.com/gy65896/SCANet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Rep-Enhancer: Re-parameterizing Neural Network for Real-time Low-light Enhancement in Visual Maritime Surveillance",
+    "displayTitle": "Rep-Enhancer: Re-parameterizing Neural Network for Real-time Low-light Enhancement in Visual Maritime Surveillance",
+    "authors": "Xijing Li, Yuxu Lu, <strong>Yu Guo</strong>, Jingxiang Qu, Ryan Wen Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 35,
+    "venue": "EUC",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/EUC2022_Re-Enhancer.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10086351" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "MDSFE: Multi-scale Deep Stacking Fusion Enhancer Network for Visual Data Enhancement",
+    "displayTitle": "MDSFE: Multi-scale Deep Stacking Fusion Enhancer Network for Visual Data Enhancement",
+    "authors": "<strong>Yu Guo</strong><sup>&dagger;</sup>, Yuan Gao<sup>&dagger;</sup>, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 36,
+    "venue": "TIM",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TIM2022_MDSFE.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9953166" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Intelligent Maritime Surveillance Framework Driven by Fusion of Camera-based Vessel Detection and AIS Data",
+    "displayTitle": "Intelligent Maritime Surveillance Framework Driven by Fusion of Camera-based Vessel Detection and AIS Data",
+    "authors": "Jingxiang Qu, <strong>Yu Guo</strong>, Yuxu Lu, Fenghua Zhu, Yingchun Huan, Ryan Wen Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 37,
+    "venue": "ITSC",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ITSC2022_Fusion.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9921786" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Fast Deep Multi-patch Progressive Network for Low-light Image Enhancement in Intelligent Transportation Systems",
+    "displayTitle": "Fast Deep Multi-patch Progressive Network for Low-light Image Enhancement in Intelligent Transportation Systems",
+    "authors": "Yuxu Lu, <strong>Yu Guo</strong>, Yanhong Huang, Fenghua Zhu, Xianjun Hu, Ryan Wen Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 38,
+    "venue": "ITSC",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ITSC2022_LLE.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9921977" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Attention-guided Lightweight Generative Adversarial Network for Low-light Image Enhancement in Maritime Video Surveillance",
+    "displayTitle": "Attention-guided Lightweight Generative Adversarial Network for Low-light Image Enhancement in Maritime Video Surveillance",
+    "authors": "Ryan Wen Liu, Nian Liu, Yanhong Huang<sup>✉</sup>, <strong>Yu Guo</strong><sup>✉</sup>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 39,
+    "venue": "JON",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/jon.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/JON2022_LLE.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://www.cambridge.org/core/journals/journal-of-navigation/article/attentionguided-lightweight-generative-adversarial-network-for-lowlight-image-enhancement-in-maritime-video-surveillance/03A34F1A428270E1DAFAFD2BF0D14D0F" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "GradDT: Gradient-guided Despeckling Transformer for Industrial Imaging Sensors",
+    "displayTitle": "GradDT: Gradient-guided Despeckling Transformer for Industrial Imaging Sensors",
+    "authors": "Yuxu Lu<sup>&dagger;</sup>, <strong>Yu Guo</strong><sup>&dagger;</sup>, Ryan Wen Liu, Kwok Tai Chui, Brij B Gupta",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 40,
+    "venue": "TII",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TII2022_GradDT.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9858613" },
+      { "text": "Code", "link": "https://github.com/LouisYuxuLu/GradDT" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Deep Network-enabled Haze Visibility Enhancement for Visual IoT-driven Intelligent Transportation Systems",
+    "displayTitle": "Deep Network-enabled Haze Visibility Enhancement for Visual IoT-driven Intelligent Transportation Systems",
+    "authors": "Ryan Wen Liu, <strong>Yu Guo</strong>, Yuxu Lu, Kwok Tai Chui, Brij B Gupta",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 41,
+    "venue": "TII",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TII2022_TSDNet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9764372" },
+      { "text": "Code", "link": "https://github.com/gy65896/TSDNet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "MTRBNet: Multi-branch Topology Residual Block-based Network for Low-light Enhancement",
+    "displayTitle": "MTRBNet: Multi-branch Topology Residual Block-based Network for Low-light Enhancement",
+    "authors": "Yuxu Lu<sup>&dagger;</sup>, <strong>Yu Guo</strong><sup>&dagger;</sup>, Ryan Wen Liu, Wenqi Ren",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 42,
+    "venue": "SPL",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/SPL2022_MTRBNet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9741357" },
+      { "text": "Code", "link": "https://github.com/LouisYuxuLu/MTRBNet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Intelligent Edge-enabled Efficient Multi-source Data Fusion for Autonomous Surface Vehicles in Maritime Internet of Things",
+    "displayTitle": "Intelligent Edge-enabled Efficient Multi-source Data Fusion for Autonomous Surface Vehicles in Maritime Internet of Things",
+    "authors": "Ryan Wen Liu, <strong>Yu Guo</strong>, Jiangtian Nie, Qin Hu, Zehui Xiong, Han Yu, Mohsen Guizani",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 43,
+    "venue": "TGCN",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/TGCN2022_ShipF.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9731523" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Lightweight Deep Network-enabled Real-time Low-visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance",
+    "displayTitle": "Lightweight Deep Network-enabled Real-time Low-visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance",
+    "authors": "<strong>Yu Guo</strong><sup>&dagger;</sup>, Yuxu Lu<sup>&dagger;</sup>, Ryan Wen Liu",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 44,
+    "venue": "JON",
+    "year": "2022",
+    "logos": [
+      { "image": "assets/publications/logo/jon.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/JON2022_LVENet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://www.cambridge.org/core/journals/journal-of-navigation/article/lightweight-deep-networkenabled-realtime-lowvisibility-enhancement-for-promoting-vessel-detection-in-maritime-video-surveillance/BB396AE954852926137B71B751CEA310" },
+      { "text": "Code", "link": "https://github.com/gy65896/LVENet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Towards Low-visibility Enhancement in Maritime Video Surveillance: An Efficient and Effective Multi-deep Neural Network",
+    "displayTitle": "Towards Low-visibility Enhancement in Maritime Video Surveillance: An Efficient and Effective Multi-deep Neural Network",
+    "authors": "Yuxu Lu, <strong>Yu Guo</strong>, Fenghua Zhu, Ryan Wen Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 45,
+    "venue": "ITSC",
+    "year": "2021",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ITSC2021_EEMNN.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9564669" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Heterogeneous Twin Dehazing Network for Visibility Enhancement in Maritime Video Surveillance",
+    "displayTitle": "Heterogeneous Twin Dehazing Network for Visibility Enhancement in Maritime Video Surveillance",
+    "authors": "<strong>Yu Guo</strong>, Yuxu Lu, Ryan Wen Liu, Lizheng Wang, Fenghua Zhu",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 46,
+    "venue": "ITSC",
+    "year": "2021",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ITSC2021_HTDNet.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9564887" },
+      { "text": "Code", "link": "https://github.com/gy65896/HTDNet" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Intelligent Vision-enabled Detection of Water-surface Targets for Video Surveillance in Maritime Transportation",
+    "displayTitle": "Intelligent Vision-enabled Detection of Water-surface Targets for Video Surveillance in Maritime Transportation",
+    "authors": "Yongqi Guo, Yuxu Lu, <strong>Yu Guo</strong>, Ryan Wen Liu, Kwok Tai Chui",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 47,
+    "venue": "JAT",
+    "year": "2021",
+    "logos": [
+      { "image": "assets/publications/logo/Wiley_logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/JAT2021_Det.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://onlinelibrary.wiley.com/doi/full/10.1155/2021/9470895" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "CNN-enabled Visibility Enhancement Framework for Vessel Detection under Haze Environment",
+    "displayTitle": "CNN-enabled Visibility Enhancement Framework for Vessel Detection under Haze Environment",
+    "authors": "Yuxu Lu, <strong>Yu Guo</strong>, Maohan Liang",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 48,
+    "venue": "JAT",
+    "year": "2021",
+    "logos": [
+      { "image": "assets/publications/logo/Wiley_logo.svg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/JAT2021_CNN.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://onlinelibrary.wiley.com/doi/full/10.1155/2021/5598390" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Low-light Image Enhancement with Regularized Illumination Optimization and Deep Noise Suppression",
+    "displayTitle": "Low-light Image Enhancement with Regularized Illumination Optimization and Deep Noise Suppression",
+    "authors": "<strong>Yu Guo</strong><sup>&dagger;</sup>, Yuxu Lu<sup>&dagger;</sup>, Ryan Wen Liu, Meifang Yang, Kwok Tai Chui",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 49,
+    "venue": "Access",
+    "year": "2020",
+    "logos": [
+      { "image": "assets/publications/logo/Ieee_blue.jpg", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/Access2020_LLE.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/9163095" },
+      { "text": "Code", "link": "https://github.com/gy65896/Enhancement-Access" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  },
+  {
+    "title": "Low-light Image Enhancement with Deep Blind Denoising",
+    "displayTitle": "Low-light Image Enhancement with Deep Blind Denoising",
+    "authors": "<strong>Yu Guo</strong>, Yuxu Lu, Meifang Yang, Ryan Wen Liu",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 50,
+    "venue": "ICMLC",
+    "year": "2020",
+    "logos": [
+      { "image": "assets/publications/logo/acm_logo.png", "alt": "Venue" },
+      { "image": "", "alt": "Method" }
+    ],
+    "thumbnail": "assets/publications/coauthor/ICMLC2020_LLE.jpg",
+    "tags": [
+      { "text": "Paper", "link": "https://dl.acm.org/doi/abs/10.1145/3383972.3384022" },
+      { "text": "Code", "link": "#" },
+      { "text": "Project Page", "link": "#" }
+    ]
+  }
+]

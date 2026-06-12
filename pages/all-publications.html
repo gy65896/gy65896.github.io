@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Publications - Your Name</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <ul class="nav-links" style="display:flex; gap:1.25rem; align-items:center; padding:1rem 1.25rem; max-width:1100px; margin:0 auto;">
+            <li><a href="../index.html" class="nav-item">Home</a></li>
+            <li><a href="#" class="nav-item active">All Publications</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-container">
+        <div class="main-wrapper">
+            <main class="main-content">
+                <section id="all-publications" class="section">
+                    <h2 class="section-title">All Publications <span class="subtitle-text" id="filter-indicator"></span></h2>
+
+                    <div class="publication-filters">
+                        <a href="all-publications.html" class="filter-link" id="filter-all">
+                            <i class="fas fa-list"></i> All Publications
+                        </a>
+                        <a href="all-publications.html?filter=first-author" class="filter-link" id="filter-first">
+                            <i class="fas fa-user"></i> First Author Papers
+                        </a>
+                        <a href="all-publications.html?filter=accepted" class="filter-link" id="filter-accepted">
+                            <i class="fas fa-check-circle"></i> Accepted Papers
+                        </a>
+                    </div>
+
+                    <div class="content-block">
+                        <div id="all-publications-container" class="publications-list"></div>
+                        <div class="view-all-container">
+                            <a href="../index.html" class="view-all-btn"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

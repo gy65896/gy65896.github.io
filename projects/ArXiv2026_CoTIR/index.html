@@ -1,0 +1,568 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+  <title>Universal Image Restoration via Internalized Chain-of-Thought Reasoning</title>
+  
+  <meta name="author" content="Yu Guo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" type="text/css" href="../projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .left-image, .right-image-container {
+            margin: 10px;
+            text-align: center;
+        }
+        .right-image-container img,
+        .left-image img {
+            display: block;
+            width: 480px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .right-image-container img {
+            display: none;
+        }
+        .right-image-container img.active {
+            display: block;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #2c3e50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        button:hover {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            border: 2px solid #2c3e50;
+        }
+        .cotir-juxtapose-row {
+            border: 0px black solid;
+            width: 100%;
+            table-layout: fixed;
+        }
+        .cotir-juxtapose-row td {
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            width: 33.3333%;
+        }
+        .cotir-juxtapose-row iframe.juxtapose {
+            display: block;
+            width: 100%;
+            height: 608px;
+        }
+        .cotir-juxtapose-carousel {
+            width: 100%;
+            height: 608px;
+            overflow: hidden;
+            position: relative;
+        }
+        .cotir-juxtapose-carousel-track {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            transform: translateX(0%);
+            transition: transform 600ms ease;
+        }
+        .cotir-juxtapose-carousel-slide {
+            flex: 0 0 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cotir-juxtapose-frame {
+            width: 100%;
+            max-width: 860px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cotir-juxtapose-frame iframe.juxtapose {
+            border: 0;
+            display: block;
+            width: 100%;
+        }
+        .cotir-carousel-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 10px 0 12px 0;
+        }
+        .cotir-carousel-controls button {
+            background-color: #363636;
+            border: none;
+            color: white;
+            padding: 6px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 0;
+            transition-duration: 0.2s;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .cotir-carousel-controls button:hover {
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+        }
+        .cotir-carousel-label {
+            font-size: 14px;
+            color: #4a4a4a;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .cotir-carousel-dots{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 6px;
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin: 0;
+        }
+        .cotir-carousel-dots button {
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            border-radius: 999px;
+            border: 1px solid #363636;
+            background-color: transparent;
+        }
+        .cotir-carousel-dots button:hover {
+            background-color: rgba(54, 54, 54, 0.15);
+            border: 1px solid #363636;
+        }
+        .cotir-carousel-dots button.cotir-active {
+            background-color: #363636;
+        }
+    </style>
+    <script>
+        function showImage(imageId, imageName) {
+            var images = document.querySelectorAll('.right-image-container img');
+            images.forEach(function(img) {
+                img.classList.remove('active');
+            });
+            document.getElementById(imageId).classList.add('active');
+            document.getElementById('right-image-name').textContent = imageName;
+        }
+    </script>
+</head>
+
+<body style="width: 100%;">
+    <div style="width: 100%;">
+        <!-- Title -->
+        <div class="root-content" style="padding-top: 30px;">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <img src="../../assets/publications/papers/ArXiv2026_CoTIR/cotir.png" alt="CoTIR Logo" style="height: 60px; width: auto;">
+                <name>Universal Image Restoration via Internalized Chain-of-Thought Reasoning</name>
+            </div>
+            <br>
+            <div id="author-list">
+                <a href="https://scholar.google.com/citations?user=5qAe9ZMAAAAJ">Yu Guo</a><sup>1, &dagger;</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=yggQMJMAAAAJ">Zhengru Fang</a><sup>1, &dagger;</sup>&nbsp;&nbsp;&nbsp;
+                <a href="http://www.shengfenghe.com/">Shengfeng He</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=rtPVwT8AAAAJ">Senkang Hu</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=YopoapwAAAAJ">Yihang Tao</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.csie.ntu.edu.tw/~plin/">Phone Lin</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=cs45mqMAAAAJ">Yuguang Fang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div id="remark-list">
+                (&dagger; Co-first Author)
+            </div>
+            <div id="institution-list">
+                <sup>1</sup> City University of Hong Kong&nbsp;&nbsp;&nbsp;
+                <sup>2</sup> Singapore Management University&nbsp;&nbsp;&nbsp;<br>
+                <sup>3</sup> National Taiwan University&nbsp;&nbsp;&nbsp;
+            </div>
+            <p id="publication">
+                ArXiv 2026
+            </p>
+            <div id="button-list">
+                <span class="link-button">
+                    <a class="link-button-content", href="#", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf fa-w-12" style="position: relative; top: 0.15em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>
+                        </span>
+                        &nbsp;
+                        Paper
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="#", target="_blank">
+                        <span>
+                            <i class="ai ai-arxiv"></i>
+                        </span>
+                        &nbsp;
+                        ArXiv
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content" href="https://github.com/gy65896/CoTIR", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" version="1.1" viewBox="0 0 16 16" width="1.2em" style="position: relative; top: 0.25em;"><path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                        </span>
+                        &nbsp; 
+                        Github
+                    </a>
+               </span>
+               <span class="link-button">
+                    <a class="link-button-content", href="#", target="_blank">
+                        <span>
+                            🤗
+                        </span>
+                        &nbsp;
+                        Demo
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="#", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" style="position: relative; top: 0.15em;" width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16"> <path fill="currentColor" fill-rule="evenodd" d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z" fill="white"></path> <path fill="currentColor" fill-rule="evenodd" d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z" fill="white"></path> </svg>
+
+                        </span>
+                        &nbsp;
+                        Poster
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="#", target="_blank">
+                        <span>
+                            <svg class="svg-inline--fa fa-play-button" aria-hidden="true" style="position: relative; top: 0.15em;" width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16"> <circle cx="8" cy="8" r="8" stroke="currentColor" stroke-width="1.5" fill="none"></circle> <path fill="currentColor" fill-rule="evenodd" d="M6.5 4.5v7l5-3.5-5-3.5z"></path></svg>
+                        </span>
+                        &nbsp;
+                        Video
+                    </a>
+                </span>
+                <span class="link-button">
+                    <a class="link-button-content", href="#bib">
+                        <span>
+                            <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" style="position: relative; top: 0.15em;" width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16"> <path fill="currentColor" fill-rule="evenodd" d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z" fill="white"></path> <path fill="currentColor" fill-rule="evenodd" d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z" fill="white"></path> </svg>
+                        </span>
+                        &nbsp;  
+                        BibTex
+                    </a>
+                </span>
+                <div id="count" style="padding-top: 20px;">
+                    <img src="https://img.shields.io/github/stars/gy65896/CoTIR?label=%F0%9F%8C%9F%20Star&color=blue"> &nbsp;&nbsp;
+                    <img src="https://img.shields.io/github/forks/gy65896/CoTIR?label=%F0%9F%94%A7%20Fork&color=green">
+                </div>
+                <div style="padding-top: 20px;">
+                    <img src="../../assets/publications/papers/ArXiv2026_CoTIR/abstract.jpg" width="100%"/> 
+                </div>
+            </div>
+        </div>
+        <!-- Visual Results -->
+        <div style="background-color: #f5f5f5; margin-right: auto; margin-left: auto;">
+            <div class="root-content" style="padding-top: 10px;">
+                <h1 class="section-name">&#128293; Restoration Performance on Real Images &#128293;</h1>
+                <div class="cotir-carousel-controls">
+                    <button type="button" id="cotir-carousel-prev">Prev</button>
+                    <button type="button" id="cotir-carousel-next">Next</button>
+                    <label class="cotir-carousel-label">
+                        <input type="checkbox" id="cotir-carousel-pin">
+                        Pin current
+                    </label>
+                </div>
+                <div class="cotir-juxtapose-carousel" id="cotir-juxtapose-carousel">
+                    <div class="cotir-juxtapose-carousel-track" id="cotir-juxtapose-carousel-track">
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=33e2b058-5b2e-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="590" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=70a40028-5b2e-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b0c66452-5b2e-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="690" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f2f87496-5b2e-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <iframe frameborder="0" class="juxtapose" width="100%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2a2b7ddc-5b2f-11f1-ba1b-0e6f42328d7d"></iframe>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="520" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=876af680-5b2f-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b8586b42-5b2f-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <iframe frameborder="0" class="juxtapose" width="75%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2db1ce9c-5b30-11f1-ba1b-0e6f42328d7d"></iframe>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="680" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0c783580-5b31-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="620" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=6f4fe02c-5b31-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=cf005fec-5b31-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="680" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d09ed532-5b35-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=37b60870-5b32-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7e217218-5b32-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="680" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=cb1bfe16-5b33-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="680" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=76b4ef44-5b34-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="690" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=396c378c-5b34-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="610" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b3793fb6-5b34-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <iframe frameborder="0" class="juxtapose" width="100%" height="800" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=e44d15ae-5b34-11f1-ba1b-0e6f42328d7d"></iframe>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="680" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2f6f354e-5b35-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                        <div class="cotir-juxtapose-carousel-slide">
+                            <div class="cotir-juxtapose-frame">
+                                <iframe frameborder="0" class="juxtapose" width="100%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=69b5f4c2-5b35-11f1-ba1b-0e6f42328d7d"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cotir-carousel-dots" id="cotir-carousel-dots"></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Paper Information -->
+        <div class="root-content" style="padding-top: 30px;">
+            <div class="section-content">
+            <h1 class="section-name"> Abstract </h1>
+                <p class="section-content-text">
+                    Image restoration seeks to recover high-quality images from degraded inputs but becomes highly ill-posed under complex, mixed degradations. While unified all-in-one models are common, their performance declines as degradation complexity increases. Recent works adopt Chain-of-Thought (CoT) reasoning for multi-round restoration using specialized modules. However, this approach faces two key limitations: (i) increased computational cost due to multi-step processing and (ii) weak modeling of interactions between degradations during stepwise inference. We introduce CoTIR, a universal image restoration framework that internalizes CoT reasoning within a single model. Concretely, we view image restoration as a specialized subtask of image editing, which implies that a large-scale pre-trained editing model provides a more favorable optimization starting point. Building on this, we fine-tune the model for restoration and further encode structured CoT-style reasoning into the learning objective via a differentiable formulation inspired by Lagrangian optimization, enabling holistic restoration without chaining specialized restorers. To facilitate training and evaluation, we further present CoTIR-Bench, a large-scale benchmark comprising 5.2 million samples with CoT-style reasoning traces. Extensive experiments on CoTIR-Bench and broad real composite degradation scenes show that CoTIR achieves stronger perceptual quality and more competitive fidelity than both all-in-one models and multi-round restoration methods.
+                </p>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <h1 class="section-name">Method</h1>
+                <img src="../../assets/publications/papers/ArXiv2026_CoTIR/method.jpg" width="100%"/>
+            </div>
+
+            <div>
+                <h1 class="section-name" style="margin-top: 30px; text-align: left; font-size: 25px;">
+                    BibTex
+                </h1>
+                <a name="bib"></a>
+                <pre style="margin-top: 5px;" class="bibtex"></pre>
+            </div>
+            <div style="margin-bottom: 50px;">
+                <h1 class="section-name" style="margin-top: 30px; margin-bottom: 10px; text-align: left; font-size: 25px;">
+                    Contact
+                </h1>
+                <p class="section-content-text">
+                    If you have any questions, please get in touch with me <strong>guoyu65896@gmail.com</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$']]},
+        messageStyle: "none"
+    });
+</script>
+<script>
+    (function() {
+        var carousel = document.getElementById('cotir-juxtapose-carousel');
+        var track = document.getElementById('cotir-juxtapose-carousel-track');
+        var dots = document.getElementById('cotir-carousel-dots');
+        var prevButton = document.getElementById('cotir-carousel-prev');
+        var nextButton = document.getElementById('cotir-carousel-next');
+        var pinCheckbox = document.getElementById('cotir-carousel-pin');
+        if (!carousel || !track || !dots || !prevButton || !nextButton || !pinCheckbox) {
+            return;
+        }
+
+        var slides = Array.prototype.slice.call(track.querySelectorAll('.cotir-juxtapose-carousel-slide'));
+        if (slides.length === 0) {
+            return;
+        }
+
+        var currentIndex = 0;
+        var intervalId = null;
+        var hoverPaused = false;
+
+        function normalizeIndex(index) {
+            return ((index % slides.length) + slides.length) % slides.length;
+        }
+
+        function setActiveDot() {
+            var dotButtons = dots.querySelectorAll('button');
+            for (var i = 0; i < dotButtons.length; i++) {
+                if (i === currentIndex) {
+                    dotButtons[i].classList.add('cotir-active');
+                } else {
+                    dotButtons[i].classList.remove('cotir-active');
+                }
+            }
+        }
+
+        function goTo(index) {
+            currentIndex = normalizeIndex(index);
+            track.style.transform = 'translateX(' + (-currentIndex * 100) + '%)';
+            setActiveDot();
+            var iframe = slides[currentIndex].querySelector('iframe.juxtapose');
+            if (iframe) {
+                var heightAttr = parseInt(iframe.getAttribute('height') || '608', 10);
+                if (!isNaN(heightAttr) && heightAttr > 0) {
+                    carousel.style.height = heightAttr + 'px';
+                }
+            }
+        }
+
+        function startAuto() {
+            stopAuto();
+            intervalId = window.setInterval(function() {
+                if (document.hidden) {
+                    return;
+                }
+                if (pinCheckbox.checked || hoverPaused) {
+                    return;
+                }
+                goTo(currentIndex + 1);
+            }, 5000);
+        }
+
+        function stopAuto() {
+            if (intervalId !== null) {
+                window.clearInterval(intervalId);
+                intervalId = null;
+            }
+        }
+
+        function buildDots() {
+            while (dots.firstChild) {
+                dots.removeChild(dots.firstChild);
+            }
+            for (var i = 0; i < slides.length; i++) {
+                (function(index) {
+                    var btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.addEventListener('click', function() {
+                        goTo(index);
+                    });
+                    dots.appendChild(btn);
+                })(i);
+            }
+            setActiveDot();
+        }
+
+        prevButton.addEventListener('click', function() {
+            goTo(currentIndex - 1);
+        });
+        nextButton.addEventListener('click', function() {
+            goTo(currentIndex + 1);
+        });
+
+        carousel.addEventListener('mouseenter', function() {
+            hoverPaused = true;
+        });
+        carousel.addEventListener('mouseleave', function() {
+            hoverPaused = false;
+        });
+        dots.addEventListener('mouseenter', function() {
+            hoverPaused = true;
+        });
+        dots.addEventListener('mouseleave', function() {
+            hoverPaused = false;
+        });
+
+        window.addEventListener('resize', function() {
+            goTo(currentIndex);
+        });
+
+        buildDots();
+        goTo(0);
+        startAuto();
+    })();
+</script>
