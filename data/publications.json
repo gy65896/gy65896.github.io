@@ -15,7 +15,7 @@
     ],
     "thumbnail": "assets/publications/papers/ArXiv2026_CoTIR/method.jpg",
     "tags": [
-      { "text": "Paper", "link": "#" },
+      { "text": "Paper", "link": "https://arxiv.org/abs/2606.17557" },
       { "text": "Code", "link": "https://github.com/gy65896/CoTIR" },
       { "text": "Project Page", "link": "https://gy65896.github.io/projects/ArXiv2026_CoTIR" }
     ]
